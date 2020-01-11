@@ -14,4 +14,11 @@ declare module "fakejson" {
   export function matchEventKind(json: string, kind: number): boolean;
 }
 declare module "relay" {
-  import { type Event } from "node_modul
+  import { type Event } from "node_modules/nostr-tools/index";
+  import { type Filter } from "node_modules/nostr-tools/index";
+  type RelayEvent = "connect" | "disconnect" | "error" | "notice";
+  export type Relay = {
+    url: string;
+    status: number;
+    connect: () => Promise<void>;
+    clos
