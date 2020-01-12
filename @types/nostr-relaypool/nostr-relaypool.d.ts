@@ -21,4 +21,10 @@ declare module "relay" {
     url: string;
     status: number;
     connect: () => Promise<void>;
-    clos
+    close: () => Promise<void>;
+    sub: (filters: Filter[], opts?: SubscriptionOptions) => Sub;
+    publish: (event: Event) => Pub;
+    on: (type: RelayEvent, cb: unknown) => void;
+    off: (type: RelayEvent, cb: unknown) => void;
+  };
+  export type
