@@ -27,4 +27,10 @@ declare module "relay" {
     on: (type: RelayEvent, cb: unknown) => void;
     off: (type: RelayEvent, cb: unknown) => void;
   };
-  export type
+  export type Pub = {
+    on: (type: "ok" | "seen" | "failed", cb: unknown) => void;
+    off: (type: "ok" | "seen" | "failed", cb: unknown) => void;
+  };
+  export type Sub = {
+    sub: (filters: Filter[], opts: SubscriptionOptions) => Sub;
+    unsub: () => 
