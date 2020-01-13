@@ -33,4 +33,14 @@ declare module "relay" {
   };
   export type Sub = {
     sub: (filters: Filter[], opts: SubscriptionOptions) => Sub;
-    unsub: () => 
+    unsub: () => void;
+    on: (type: "event" | "eose", cb: unknown) => void;
+    off: (type: "event" | "eose", cb: unknown) => void;
+  };
+  type SubscriptionOptions = {
+    skipVerification?: boolean;
+    id?: string;
+    eventIds?: Set<string>;
+  };
+  export function relayInit(
+    url: string,
