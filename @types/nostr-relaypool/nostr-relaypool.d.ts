@@ -44,3 +44,14 @@ declare module "relay" {
   };
   export function relayInit(
     url: string,
+    alreadyHaveEvent?: (id: string) =>
+      | (Event & {
+          id: string;
+        })
+      | undefined,
+    dontAutoReconnect?: boolean
+  ): Relay;
+}
+declare module "author" {
+  import type { OnEvent, RelayPool } from "relay-pool";
+  import { type Filter, type Even
