@@ -54,4 +54,10 @@ declare module "relay" {
 }
 declare module "author" {
   import type { OnEvent, RelayPool } from "relay-pool";
-  import { type Filter, type Even
+  import { type Filter, type Event } from "node_modules/nostr-tools/index";
+  export class Author {
+    pubkey: string;
+    relayPool: RelayPool;
+    relays: string[];
+    constructor(relayPool: RelayPool, relays: string[], pubkey: string);
+    metaData(cb: (event: Event) => voi
