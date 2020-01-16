@@ -60,4 +60,10 @@ declare module "author" {
     relayPool: RelayPool;
     relays: string[];
     constructor(relayPool: RelayPool, relays: string[], pubkey: string);
-    metaData(cb: (event: Event) => voi
+    metaData(cb: (event: Event) => void, maxDelayms: number): () => void;
+    subscribe(filters: Filter[], cb: OnEvent, maxDelayms: number): () => void;
+    followsPubkeys(
+      cb: (pubkeys: string[]) => void,
+      maxDelayms: number
+    ): () => void;
+    follows(cb: (authors: Author[]) => void
