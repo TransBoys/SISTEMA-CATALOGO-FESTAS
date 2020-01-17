@@ -66,4 +66,12 @@ declare module "author" {
       cb: (pubkeys: string[]) => void,
       maxDelayms: number
     ): () => void;
-    follows(cb: (authors: Author[]) => void
+    follows(cb: (authors: Author[]) => void, maxDelayms: number): () => void;
+    secondFollows(
+      cb: (pubkeysWithWeight: [string, number][]) => void,
+      maxDelayms: number,
+      removeDirectFollows?: boolean
+    ): () => void;
+    allEvents(
+      cb: OnEvent,
+      limit: numbe
