@@ -84,4 +84,15 @@ declare module "author" {
     ): () => void;
     followers(
       cb: OnEvent,
-      limit: 
+      limit: number | undefined,
+      maxDelayms: number
+    ): () => void;
+    sentAndRecievedDMs(
+      cb: OnEvent,
+      limit: number | undefined,
+      maxDelayms: number
+    ): () => void;
+    text(
+      cb: OnEvent,
+      limit: number | undefined,
+      maxDelayms
