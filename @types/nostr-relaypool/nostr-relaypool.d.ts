@@ -74,4 +74,14 @@ declare module "author" {
     ): () => void;
     allEvents(
       cb: OnEvent,
-      limit: numbe
+      limit: number | undefined,
+      maxDelayms: number
+    ): () => void;
+    referenced(
+      cb: OnEvent,
+      limit: number | undefined,
+      maxDelayms: number
+    ): () => void;
+    followers(
+      cb: OnEvent,
+      limit: 
