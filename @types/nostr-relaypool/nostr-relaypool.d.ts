@@ -95,4 +95,14 @@ declare module "author" {
     text(
       cb: OnEvent,
       limit: number | undefined,
-      maxDelayms
+      maxDelayms: number
+    ): () => void;
+  }
+}
+declare module "event" {
+  import {
+    type Event as NostrToolsEvent,
+    type Kind,
+  } from "node_modules/nostr-tools/index";
+  import { type Author } from "author";
+  import { type RelayPool } from "relay-po
