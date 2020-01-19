@@ -105,4 +105,13 @@ declare module "event" {
     type Kind,
   } from "node_modules/nostr-tools/index";
   import { type Author } from "author";
-  import { type RelayPool } from "relay-po
+  import { type RelayPool } from "relay-pool";
+  export type { NostrToolsEvent };
+  export type NostrToolsEventWithId = NostrToolsEvent & {
+    id: string;
+  };
+  import type { OnEvent } from "on-event-filters";
+  export class Event implements NostrToolsEventWithId {
+    id: string;
+    kind: Kind;
+    pubkey: strin
