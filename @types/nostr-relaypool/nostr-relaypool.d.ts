@@ -114,4 +114,16 @@ declare module "event" {
   export class Event implements NostrToolsEventWithId {
     id: string;
     kind: Kind;
-    pubkey: strin
+    pubkey: string;
+    tags: string[][];
+    created_at: number;
+    content: string;
+    relayPool: RelayPool;
+    relays: string[];
+    sig?: string;
+    constructor(
+      event: NostrToolsEvent & {
+        id: string;
+      },
+      relayPool: RelayPool,
+      
