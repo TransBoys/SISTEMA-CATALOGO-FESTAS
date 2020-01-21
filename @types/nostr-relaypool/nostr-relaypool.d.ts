@@ -134,4 +134,16 @@ declare module "event" {
   }
 }
 declare module "on-event-filters" {
-  import { type Filter } from "node_modules/
+  import { type Filter } from "node_modules/nostr-tools/index";
+  import { type Event } from "event";
+  export type OnEventArgs = [
+    event: Event,
+    afterEose: boolean,
+    url: string | undefined
+  ];
+  export type OnEvent = (
+    event: Event,
+    afterEose: boolean,
+    url: string | undefined
+  ) => void;
+  exp
