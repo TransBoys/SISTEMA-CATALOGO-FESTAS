@@ -126,4 +126,12 @@ declare module "event" {
         id: string;
       },
       relayPool: RelayPool,
-      
+      relays: string[]
+    );
+    referencedAuthors(): Author[];
+    referencedEvents(maxDelayms: number): Promise<Event>[];
+    thread(cb: OnEvent, maxDelayms: number): () => void;
+  }
+}
+declare module "on-event-filters" {
+  import { type Filter } from "node_modules/
