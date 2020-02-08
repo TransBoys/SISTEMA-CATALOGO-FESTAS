@@ -146,4 +146,10 @@ declare module "on-event-filters" {
     afterEose: boolean,
     url: string | undefined
   ) => void;
-  exp
+  export function doNotEmitDuplicateEvents(onEvent: OnEvent): OnEvent;
+  export function doNotEmitOlderEvents(onEvent: OnEvent): OnEvent;
+  export function matchOnEventFilters(
+    onEvent: OnEvent,
+    filters: Filter[]
+  ): OnEvent;
+  export function emitEventsOnNextTick(onEven
