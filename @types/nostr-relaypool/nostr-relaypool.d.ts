@@ -152,4 +152,12 @@ declare module "on-event-filters" {
     onEvent: OnEvent,
     filters: Filter[]
   ): OnEvent;
-  export function emitEventsOnNextTick(onEven
+  export function emitEventsOnNextTick(onEvent: OnEvent): OnEvent;
+}
+declare module "event-cache" {
+  import { type Filter } from "node_modules/nostr-tools/index";
+  import { type Event } from "event";
+  export class EventCache {
+    #private;
+    eventsById: Map<string, Event>;
+    m
