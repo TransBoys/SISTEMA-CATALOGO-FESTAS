@@ -160,4 +160,9 @@ declare module "event-cache" {
   export class EventCache {
     #private;
     eventsById: Map<string, Event>;
-    m
+    metadataByPubKey: Map<string, Event>;
+    contactsByPubKey: Map<string, Event>;
+    authorsKindsByPubKey: Map<string, Map<number, Event[]>>;
+    eventsByTags: Map<string, Event[]>;
+    addEvent(event: Event): void;
+    getEventById(id: string): Event | 
