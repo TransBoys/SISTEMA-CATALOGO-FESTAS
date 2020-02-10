@@ -176,4 +176,12 @@ declare module "event-cache" {
     ): {
       filters: (Filter & {
         relay?: string;
-      
+      })[];
+      events: Event[];
+    };
+  }
+}
+declare module "callback-replayer" {
+  export type Cancellable<Process> = (process: Process) => () => void;
+  export type Callback<Args extends unknown[]> = (...args: Args) => void;
+  export cla
