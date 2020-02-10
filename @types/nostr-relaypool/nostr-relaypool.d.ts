@@ -165,4 +165,15 @@ declare module "event-cache" {
     authorsKindsByPubKey: Map<string, Map<number, Event[]>>;
     eventsByTags: Map<string, Event[]>;
     addEvent(event: Event): void;
-    getEventById(id: string): Event | 
+    getEventById(id: string): Event | undefined;
+    hasEventById(id: string): boolean;
+    getCachedEventsWithUpdatedFilters(
+      filters: (Filter & {
+        relay?: string;
+        noCache?: boolean;
+      })[],
+      relays: string[]
+    ): {
+      filters: (Filter & {
+        relay?: string;
+      
