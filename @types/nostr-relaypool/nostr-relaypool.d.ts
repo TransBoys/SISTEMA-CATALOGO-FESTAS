@@ -184,4 +184,9 @@ declare module "event-cache" {
 declare module "callback-replayer" {
   export type Cancellable<Process> = (process: Process) => () => void;
   export type Callback<Args extends unknown[]> = (...args: Args) => void;
-  export cla
+  export class CancellableCallbackReplayer<Args extends unknown[]> {
+    events: Args[];
+    unsubAll?: () => void;
+    subs: Set<Callback<Args>>;
+    constructor(cancellableCallback: Cancellable<Callback<Args>>);
+    sub(): Cancellable<Callback<Ar
