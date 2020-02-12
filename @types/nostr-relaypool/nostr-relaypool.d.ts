@@ -189,4 +189,14 @@ declare module "callback-replayer" {
     unsubAll?: () => void;
     subs: Set<Callback<Args>>;
     constructor(cancellableCallback: Cancellable<Callback<Args>>);
-    sub(): Cancellable<Callback<Ar
+    sub(): Cancellable<Callback<Args>>;
+  }
+  export class CallbackReplayer<
+    Args extends unknown[],
+    T extends (...args: Args) => void
+  > {
+    subs: T[];
+    events: Args[];
+    onunsub: (() => void) | undefined;
+    constructor(onunsub: (() => void) | undefined);
+    eve
