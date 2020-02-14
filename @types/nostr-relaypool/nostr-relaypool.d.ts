@@ -199,4 +199,11 @@ declare module "callback-replayer" {
     events: Args[];
     onunsub: (() => void) | undefined;
     constructor(onunsub: (() => void) | undefined);
-    eve
+    event(...args: Args): void;
+    sub(callback: T): () => void;
+  }
+}
+declare module "group-filters-by-relay" {
+  import { type Filter } from "node_modules/nostr-tools/index";
+  import { type OnEvent } from "on-event-filters";
+  import { type EventCache }
