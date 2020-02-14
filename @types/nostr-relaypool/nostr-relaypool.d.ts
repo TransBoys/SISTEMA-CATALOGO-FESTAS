@@ -206,4 +206,10 @@ declare module "callback-replayer" {
 declare module "group-filters-by-relay" {
   import { type Filter } from "node_modules/nostr-tools/index";
   import { type OnEvent } from "on-event-filters";
-  import { type EventCache }
+  import { type EventCache } from "event-cache";
+  import { type Event } from "event";
+  import { type FilterToSubscribe } from "relay-pool";
+  import { type CallbackReplayer } from "callback-replayer";
+  export function groupFiltersByRelayAndEmitCacheHits(
+    filters: (Filter & {
+      relay?: string;
