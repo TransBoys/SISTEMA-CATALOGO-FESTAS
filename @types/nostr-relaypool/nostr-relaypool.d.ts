@@ -223,3 +223,9 @@ declare module "group-filters-by-relay" {
       logAllEvents?: boolean;
     },
     eventCache?: EventCache
+  ): [OnEvent, Map<string, Filter[]>];
+  export function batchFiltersByRelay(
+    subscribedFilters: FilterToSubscribe[],
+    subscriptionCache?: Map<
+      string,
+      CallbackReplayer<[Event, boolean, string | undefined], OnEve
