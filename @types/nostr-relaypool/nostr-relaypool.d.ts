@@ -213,3 +213,13 @@ declare module "group-filters-by-relay" {
   export function groupFiltersByRelayAndEmitCacheHits(
     filters: (Filter & {
       relay?: string;
+      noCache?: boolean;
+    })[],
+    relays: string[],
+    onEvent: OnEvent,
+    options?: {
+      allowDuplicateEvents?: boolean;
+      allowOlderEvents?: boolean;
+      logAllEvents?: boolean;
+    },
+    eventCache?: EventCache
