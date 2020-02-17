@@ -228,4 +228,17 @@ declare module "group-filters-by-relay" {
     subscribedFilters: FilterToSubscribe[],
     subscriptionCache?: Map<
       string,
-      CallbackReplayer<[Event, boolean, string | undefined], OnEve
+      CallbackReplayer<[Event, boolean, string | undefined], OnEvent>
+    >
+  ): [
+    OnEvent,
+    Map<string, Filter[]>,
+    {
+      unsubcb?: () => void;
+    }
+  ];
+}
+declare module "relay-pool" {
+  import { type Filter } from "node_modules/nostr-tools/index";
+  import { type Relay } from "relay";
+  import { type OnEvent } fro
