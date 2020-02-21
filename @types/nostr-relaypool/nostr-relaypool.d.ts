@@ -241,4 +241,12 @@ declare module "group-filters-by-relay" {
 declare module "relay-pool" {
   import { type Filter } from "node_modules/nostr-tools/index";
   import { type Relay } from "relay";
-  import { type OnEvent } fro
+  import { type OnEvent } from "on-event-filters";
+  import { type EventCache } from "event-cache";
+  import {
+    type Event,
+    type NostrToolsEvent,
+    type NostrToolsEventWithId,
+  } from "event";
+  import { type CallbackReplayer } from "callback-replayer";
+  export { type OnEvent } f
