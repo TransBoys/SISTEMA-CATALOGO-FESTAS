@@ -249,4 +249,10 @@ declare module "relay-pool" {
     type NostrToolsEventWithId,
   } from "event";
   import { type CallbackReplayer } from "callback-replayer";
-  export { type OnEvent } f
+  export { type OnEvent } from "on-event-filters";
+  export type OnEose = (relayUrl: string, minCreatedAt: number) => void;
+  export type FilterToSubscribe = [
+    onEvent: OnEvent,
+    filtersByRelay: Map<string, Filter[]>,
+    unsub: {
+      unsubcb?: () => voi
