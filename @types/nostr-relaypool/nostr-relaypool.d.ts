@@ -255,4 +255,13 @@ declare module "relay-pool" {
     onEvent: OnEvent,
     filtersByRelay: Map<string, Filter[]>,
     unsub: {
-      unsubcb?: () => voi
+      unsubcb?: () => void;
+    },
+    unsubscribeOnEose?: boolean,
+    subscriptionCacheKey?: string,
+    maxDelayms?: number
+  ];
+  export type SubscriptionOptions = {
+    allowDuplicateEvents?: boolean;
+    allowOlderEvents?: boolean;
+    logAllEvents?: boolean;
