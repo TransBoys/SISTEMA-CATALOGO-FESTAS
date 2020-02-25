@@ -265,3 +265,12 @@ declare module "relay-pool" {
     allowDuplicateEvents?: boolean;
     allowOlderEvents?: boolean;
     logAllEvents?: boolean;
+    unsubscribeOnEose?: boolean;
+  };
+  export class RelayPool {
+    #private;
+    relayByUrl: Map<string, Relay>;
+    noticecbs: Array<(url: string, msg: string) => void>;
+    eventCache?: EventCache;
+    minMaxDelayms: number;
+    filtersToSubscr
