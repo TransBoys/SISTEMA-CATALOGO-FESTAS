@@ -273,4 +273,10 @@ declare module "relay-pool" {
     noticecbs: Array<(url: string, msg: string) => void>;
     eventCache?: EventCache;
     minMaxDelayms: number;
-    filtersToSubscr
+    filtersToSubscribe: FilterToSubscribe[];
+    timer?: ReturnType<typeof setTimeout>;
+    externalGetEventById?: (id: string) => NostrToolsEventWithId | undefined;
+    logSubscriptions?: boolean;
+    dontAutoReconnect?: boolean;
+    startTime: number;
+    dele
