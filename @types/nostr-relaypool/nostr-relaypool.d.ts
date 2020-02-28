@@ -279,4 +279,13 @@ declare module "relay-pool" {
     logSubscriptions?: boolean;
     dontAutoReconnect?: boolean;
     startTime: number;
-    dele
+    deleteSignatures?: boolean;
+    subscriptionCache?: Map<
+      string,
+      CallbackReplayer<[Event, boolean, string | undefined], OnEvent>
+    >;
+    skipVerification?: boolean;
+    constructor(
+      relays?: string[],
+      options?: {
+        useEventCache?: boolean;
