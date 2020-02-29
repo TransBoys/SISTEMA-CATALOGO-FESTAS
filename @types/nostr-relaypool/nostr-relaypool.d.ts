@@ -289,3 +289,11 @@ declare module "relay-pool" {
       relays?: string[],
       options?: {
         useEventCache?: boolean;
+        externalGetEventById?: (
+          id: string
+        ) => NostrToolsEventWithId | undefined;
+        logSubscriptions?: boolean;
+        dontAutoReconnect?: boolean;
+        subscriptionCache?: boolean;
+        deleteSignatures?: boolean;
+        s
