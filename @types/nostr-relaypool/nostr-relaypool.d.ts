@@ -296,4 +296,14 @@ declare module "relay-pool" {
         dontAutoReconnect?: boolean;
         subscriptionCache?: boolean;
         deleteSignatures?: boolean;
-        s
+        skipVerification?: boolean;
+      }
+    );
+    addOrGetRelay(relay: string): Relay;
+    close(): Promise<void[]>;
+    removeRelay(url: string): void;
+    sendSubscriptions(onEose?: OnEose): () => void;
+    subscribe(
+      filters: (Filter & {
+        relay?: string;
+      
