@@ -306,4 +306,15 @@ declare module "relay-pool" {
     subscribe(
       filters: (Filter & {
         relay?: string;
+        noCache?: boolean;
+      })[],
+      relays: string[],
+      onEvent: OnEvent,
+      maxDelayms?: number,
+      onEose?: OnEose,
+      options?: SubscriptionOptions
+    ): () => void;
+    getEventById(
+      id: string,
+      relays: string[],
       
