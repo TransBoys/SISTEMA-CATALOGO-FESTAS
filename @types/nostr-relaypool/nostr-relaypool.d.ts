@@ -317,4 +317,9 @@ declare module "relay-pool" {
     getEventById(
       id: string,
       relays: string[],
-      
+      maxDelayms: number
+    ): Promise<Event>;
+    publish(event: NostrToolsEvent, relays: string[]): void;
+    onnotice(cb: (url: string, msg: string) => void): void;
+    onerror(cb: (url: string, msg: string) => void): void;
+    ondisconnect(cb: (url: string, msg: string) => v
