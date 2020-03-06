@@ -322,4 +322,12 @@ declare module "relay-pool" {
     publish(event: NostrToolsEvent, relays: string[]): void;
     onnotice(cb: (url: string, msg: string) => void): void;
     onerror(cb: (url: string, msg: string) => void): void;
-    ondisconnect(cb: (url: string, msg: string) => v
+    ondisconnect(cb: (url: string, msg: string) => void): void;
+    getRelayStatuses(): [url: string, staus: number][];
+  }
+}
+declare module "author-test-manual" {}
+declare module "callback-replayer-test" {}
+declare module "collect" {
+  import { type Event } from "event";
+  import { type OnEvent } from "on-event-fi
