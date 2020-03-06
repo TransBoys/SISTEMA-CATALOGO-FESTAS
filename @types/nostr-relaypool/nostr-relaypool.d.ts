@@ -330,4 +330,12 @@ declare module "author-test-manual" {}
 declare module "callback-replayer-test" {}
 declare module "collect" {
   import { type Event } from "event";
-  import { type OnEvent } from "on-event-fi
+  import { type OnEvent } from "on-event-filters";
+  export function collect(
+    onEvents: (events: Event[]) => void,
+    skipSort?: boolean
+  ): OnEvent;
+}
+declare module "event-cache-test" {}
+declare module "event-demultiplexer" {
+  import { type Filter } from "node_mo
