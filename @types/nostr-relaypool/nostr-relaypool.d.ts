@@ -343,4 +343,11 @@ declare module "event-demultiplexer" {
   import { type Event } from "event";
   export class EventDemultiplexer {
     #private;
-    filterAndOnEventByEvent: Map<string, [Filter, OnEve
+    filterAndOnEventByEvent: Map<string, [Filter, OnEvent][]>;
+    onEvent(event: Event, afterEose: boolean, url: string | undefined): void;
+    subscribe(filters: Filter[], onEvent: OnEvent): void;
+  }
+}
+declare module "event-demultiplexer-test" {}
+declare module "fakejson.test" {}
+declare module "in-memor
