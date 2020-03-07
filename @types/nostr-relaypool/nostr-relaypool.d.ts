@@ -338,4 +338,9 @@ declare module "collect" {
 }
 declare module "event-cache-test" {}
 declare module "event-demultiplexer" {
-  import { type Filter } from "node_mo
+  import { type Filter } from "node_modules/nostr-tools/index";
+  import { type OnEvent } from "on-event-filters";
+  import { type Event } from "event";
+  export class EventDemultiplexer {
+    #private;
+    filterAndOnEventByEvent: Map<string, [Filter, OnEve
