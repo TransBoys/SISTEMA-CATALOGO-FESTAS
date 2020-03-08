@@ -350,4 +350,10 @@ declare module "event-demultiplexer" {
 }
 declare module "event-demultiplexer-test" {}
 declare module "fakejson.test" {}
-declare module "in-memor
+declare module "in-memory-relay-server" {
+  import { type Event, type Filter } from "node_modules/nostr-tools/index";
+  import { type WebSocket, type WebSocketServer } from "isomorphic-ws";
+  export class InMemoryRelayServer {
+    events: (Event & {
+      id: string;
+    })[];
