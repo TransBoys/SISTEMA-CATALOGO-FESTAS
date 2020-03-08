@@ -357,3 +357,14 @@ declare module "in-memory-relay-server" {
     events: (Event & {
       id: string;
     })[];
+    wss: WebSocketServer;
+    subs: Map<string, Filter[]>;
+    connections: Set<WebSocket>;
+    totalSubscriptions: number;
+    constructor(port?: number, host?: string);
+    close(): Promise<void>;
+    clear(): void;
+    disconnectAll(): void;
+  }
+}
+declare module "no
