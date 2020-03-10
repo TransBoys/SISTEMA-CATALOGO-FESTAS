@@ -367,4 +367,12 @@ declare module "in-memory-relay-server" {
     disconnectAll(): void;
   }
 }
-declare module "no
+declare module "nostr-relaypool" {
+  export * from "relay-pool";
+  export * from "author";
+  export * from "collect";
+  export { emitEventsOnNextTick } from "on-event-filters";
+  export { Event } from "event";
+}
+declare module "merge-similar-filters-test" {}
+dec
