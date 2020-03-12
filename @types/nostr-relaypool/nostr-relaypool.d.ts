@@ -375,4 +375,5 @@ declare module "nostr-relaypool" {
   export { Event } from "event";
 }
 declare module "merge-similar-filters-test" {}
-dec
+declare module "relay-pool.test" {}
+declare module "relay.test" {}
