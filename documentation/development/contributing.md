@@ -125,3 +125,14 @@ Please do not use `any` as a type. If you are unsure of the type, use `unknown` 
 const handleClick = useCallback((e) => e.currentTarget.Value, []);
 <Link onClick={handleClick}>Click me</Link>;
 ```
+
+## UI
+
+### css
+Use [Tailwind CSS](https://tailwindcss.com).
+
+### Icons
+Use [Lucide](https://lucide.dev/) icon components.
+
+### Components
+When designing the visual style of components, [shadcn](https://ui.shadcn.com/) should always be used when possible. If you can't find a good component on [shadcn](https://ui.shadcn.com/), consider using [tailwindui](https://tailwindui.com/). However, don't use tailwindui components that require headlessui.com, it's an inferior version of radixui and we shouldn't mix both. Instead, try to rebuild the component using radix-ui.
