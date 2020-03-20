@@ -8,4 +8,10 @@ It doesn't rely on any trusted central server, hence it is resilient; it is base
 
 Everybody runs a client. It can be a native client, a web client, etc. To publish something, you write a post, sign it with your key and send it to multiple relays (servers hosted by someone else, or yourself). To get updates from other people, you ask multiple relays if they know anything about these other people. Anyone can run a relay. A relay is very simple and dumb. It does nothing besides accepting posts from some people and forwarding to others. Relays don't have to be trusted. Signatures are verified on the client side.
 
-[How to start using Nostr](https://github.com/vishalxl/nostr_console/d
+[How to start using Nostr](https://github.com/vishalxl/nostr_console/discussions/31)
+
+[Nostr client feature comparison](https://github.com/vishalxl/Nostr-Clients-Features-List/blob/main/Readme.md)
+
+[List of projects built on Nostr](https://github.com/aljazceru/awesome-nostr)
+
+## This is needed because other solution
