@@ -14,4 +14,13 @@ Everybody runs a client. It can be a native client, a web client, etc. To publis
 
 [List of projects built on Nostr](https://github.com/aljazceru/awesome-nostr)
 
-## This is needed because other solution
+## This is needed because other solutions are broken:
+
+### The problem with Twitter
+
+- Twitter has ads;
+- Twitter uses bizarre techniques to keep you addicted;
+- Twitter doesn't show an actual historical feed from people you follow;
+- Twitter bans people;
+- Twitter shadowbans people;
+- Twitter
