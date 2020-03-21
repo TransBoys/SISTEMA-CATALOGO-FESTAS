@@ -23,4 +23,10 @@ Everybody runs a client. It can be a native client, a web client, etc. To publis
 - Twitter doesn't show an actual historical feed from people you follow;
 - Twitter bans people;
 - Twitter shadowbans people;
-- Twitter
+- Twitter has a lot of spam.
+
+### The problem with Mastodon and similar programs
+
+- User identities are attached to domain names controlled by third-parties;
+- Server owners can ban you, just like Twitter; Server owners can also block other servers;
+- Migrat
