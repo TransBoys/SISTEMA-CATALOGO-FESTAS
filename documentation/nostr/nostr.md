@@ -29,4 +29,5 @@ Everybody runs a client. It can be a native client, a web client, etc. To publis
 
 - User identities are attached to domain names controlled by third-parties;
 - Server owners can ban you, just like Twitter; Server owners can also block other servers;
-- Migrat
+- Migration between servers is an afterthought and can only be accomplished if servers cooperate. It doesn't work in an adversarial environment (all followers are lost);
+- There are no clear incentives to run servers, therefore, they
