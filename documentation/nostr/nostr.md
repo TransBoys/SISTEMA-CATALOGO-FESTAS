@@ -37,4 +37,5 @@ Everybody runs a client. It can be a native client, a web client, etc. To publis
 
 ### The problem with SSB (Secure Scuttlebutt)
 
-- It doesn't h
+- It doesn't have many problems. I think it's great. I was going to use it as a basis for this, but
+- its protocol is too complicated because it wasn't thought about being an open protocol at all. It was just written in JavaScript in probably a quick way to solve a specific problem
