@@ -43,4 +43,11 @@ Everybody runs a client. It can be a native client, a web client, etc. To publis
 - It is not as simple as Nostr, as it was primarily made for P2P syncing, with "pubs" being an afterthought;
 - Still, it may be worth considering using SSB instead of this custom protocol and just adapting it to the client-relay server model, because reusing a standard is always better than trying to get people in a new one.
 
-### 
+### The problem with other solutions that require everybody to run their own server
+
+- They require everybody to run their own server;
+- Sometimes people can still be censored in these because domain names can be censored.
+
+## How does Nostr work?
+
+- There are two componen
