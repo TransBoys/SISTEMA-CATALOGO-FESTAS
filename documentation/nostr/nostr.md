@@ -40,4 +40,7 @@ Everybody runs a client. It can be a native client, a web client, etc. To publis
 - It doesn't have many problems. I think it's great. I was going to use it as a basis for this, but
 - its protocol is too complicated because it wasn't thought about being an open protocol at all. It was just written in JavaScript in probably a quick way to solve a specific problem and grew from that, therefore it has weird and unnecessary quirks like signing a JSON string which must strictly follow the rules of ECMA-262 6th Edition;
 - It insists on having a chain of updates from a single user, which feels unnecessary to me and something that adds bloat and rigidity to the thing — each server/user needs to store all the chain of posts to be sure the new one is valid. Why? (Maybe they have a good reason);
-- It is not as simple as Nostr, as it was primarily made for P2P syncing, with "pub
+- It is not as simple as Nostr, as it was primarily made for P2P syncing, with "pubs" being an afterthought;
+- Still, it may be worth considering using SSB instead of this custom protocol and just adapting it to the client-relay server model, because reusing a standard is always better than trying to get people in a new one.
+
+### 
