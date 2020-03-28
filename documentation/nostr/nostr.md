@@ -50,4 +50,6 @@ Everybody runs a client. It can be a native client, a web client, etc. To publis
 
 ## How does Nostr work?
 
-- There are two componen
+- There are two components: clients and relays. Each user runs a client. Anyone can run a relay.
+- Every user is identified by a public key. Every post is signed. Every client validates these signatures.
+- Clients fetch data from relays of their choice and publish data to other relays o
