@@ -62,4 +62,5 @@ Everybody runs a client. It can be a native client, a web client, etc. To publis
 - Users getting banned and servers being closed
 
   - A relay can block a user from publishing anything there, but that has no effect on them as they can still publish to other relays. Since users are identified by a public key, they don't lose their identities and their follower base when they get banned.
-  - Instead of requiring users to manually type new relay addr
+  - Instead of requiring users to manually type new relay addresses (although this should also be supported), whenever someone you're following posts a server recommendation, the client should automatically add that to the list of relays it will query.
+  - If someone is using a relay to publish their data
