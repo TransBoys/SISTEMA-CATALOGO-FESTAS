@@ -65,4 +65,9 @@ Everybody runs a client. It can be a native client, a web client, etc. To publis
   - Instead of requiring users to manually type new relay addresses (although this should also be supported), whenever someone you're following posts a server recommendation, the client should automatically add that to the list of relays it will query.
   - If someone is using a relay to publish their data but wants to migrate to another one, they can publish a server recommendation to that previous relay and go;
   - If someone gets banned from many relays such that they can't get their server recommendations broadcasted, they may still let some close friends know through other means with which relay they are publishing now. Then, these close friends can publish server recommendations to that new server, and slowly, the old follower base of the banned user will begin finding their posts again from the new relay.
-  - All of th
+  - All of the above is valid too for when a relay ceases its operations.
+
+- Censorship-resistance
+
+  - Each user can publish their updates to any number of relays.
+  - A relay can charge a fee (the negotiation of that fee is outside of the protocol for now) fro
