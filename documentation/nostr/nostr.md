@@ -74,4 +74,4 @@ Everybody runs a client. It can be a native client, a web client, etc. To publis
 
 - Spam
 
-  - If spam is a concern for a relay, it can require payment fo
+  - If spam is a concern for a relay, it can require payment for publication or some other form of authentication, such as an email address or phone, and associate these internally with a pubkey that then gets to publish to that relay — or other anti-spam techniques, like hashcash or captchas. If a relay is being used as a s
