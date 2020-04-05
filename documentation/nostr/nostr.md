@@ -70,4 +70,8 @@ Everybody runs a client. It can be a native client, a web client, etc. To publis
 - Censorship-resistance
 
   - Each user can publish their updates to any number of relays.
-  - A relay can charge a fee (the negotiation of that fee is outside of the protocol for now) fro
+  - A relay can charge a fee (the negotiation of that fee is outside of the protocol for now) from users to publish there, which ensures censorship-resistance (there will always be some Russian server willing to take your money in exchange for serving your posts).
+
+- Spam
+
+  - If spam is a concern for a relay, it can require payment fo
