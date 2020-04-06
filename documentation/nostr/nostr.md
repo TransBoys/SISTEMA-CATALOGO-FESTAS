@@ -78,4 +78,4 @@ Everybody runs a client. It can be a native client, a web client, etc. To publis
 
 - Data storage
 
-  - For the network to stay healthy, there is no need for hundreds of active relays. In fact, it can work just fine with just a
+  - For the network to stay healthy, there is no need for hundreds of active relays. In fact, it can work just fine with just a handful, given the fact that new relays can be created and spread through the network easily in case the existing relays start misbehaving. Therefore, the amount of data storage required, in general, is relatively less than Mastodon or similar soft
