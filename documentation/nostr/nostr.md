@@ -83,4 +83,8 @@ Everybody runs a client. It can be a native client, a web client, etc. To publis
 
 - Video and other heavy content
 
-  - It's easy for a relay to reject large content, or to charge for accepting and hosting large content. When information and incentives are clear, it's easy for the market forces
+  - It's easy for a relay to reject large content, or to charge for accepting and hosting large content. When information and incentives are clear, it's easy for the market forces to solve the problem.
+
+- Techniques to trick the user
+
+  - Each client can decide how to best show posts to users, so there is always the option of just consuming what you want in the manner you want — from using an AI to decide the order of the updates you'
