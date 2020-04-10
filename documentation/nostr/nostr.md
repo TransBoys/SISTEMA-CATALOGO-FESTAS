@@ -87,4 +87,10 @@ Everybody runs a client. It can be a native client, a web client, etc. To publis
 
 - Techniques to trick the user
 
-  - Each client can decide how to best show posts to users, so there is always the option of just consuming what you want in the manner you want — from using an AI to decide the order of the updates you'
+  - Each client can decide how to best show posts to users, so there is always the option of just consuming what you want in the manner you want — from using an AI to decide the order of the updates you'll see to just reading them in chronological order.
+
+### FAQ
+
+- This is very simple. Why hasn't anyone done it before?
+
+  - I don't know, but I imagine it has to do with the fact that people making social networks are either c
