@@ -93,4 +93,8 @@ Everybody runs a client. It can be a native client, a web client, etc. To publis
 
 - This is very simple. Why hasn't anyone done it before?
 
-  - I don't know, but I imagine it has to do with the fact that people making social networks are either c
+  - I don't know, but I imagine it has to do with the fact that people making social networks are either companies wanting to make money or P2P activists who want to make a thing completely without servers. They both fail to see the specific mix of both worlds that Nostr uses.
+
+- How do I find people to follow?
+
+  - First, you must know them and get their public key somehow,
