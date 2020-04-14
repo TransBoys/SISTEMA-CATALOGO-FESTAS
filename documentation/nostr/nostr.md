@@ -97,4 +97,6 @@ Everybody runs a client. It can be a native client, a web client, etc. To publis
 
 - How do I find people to follow?
 
-  - First, you must know them and get their public key somehow,
+  - First, you must know them and get their public key somehow, either by asking or by seeing it referenced somewhere. Once you're inside a Nostr social network you'll be able to see them interacting with other people and then you can also start following and interacting with these others.
+
+- H
