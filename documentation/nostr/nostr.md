@@ -101,4 +101,8 @@ Everybody runs a client. It can be a native client, a web client, etc. To publis
 
 - How do I find relays? What happens if I'm not connected to the same relays someone else is?
 
-  - You won't be able to communicate with that person. But there are hints on events that can be used so that your client software (or you, manually) knows how 
+  - You won't be able to communicate with that person. But there are hints on events that can be used so that your client software (or you, manually) knows how to connect to the other person's relay and interact with them. There are other ideas on how to solve this too in the future but we can't ever promise perfect reachability, no protocol can.
+
+- Can I know how many people are following me?
+
+  - No, but you can get some 
