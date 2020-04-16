@@ -105,4 +105,8 @@ Everybody runs a client. It can be a native client, a web client, etc. To publis
 
 - Can I know how many people are following me?
 
-  - No, but you can get some 
+  - No, but you can get some estimates if relays cooperate in an extra-protocol way.
+
+- What incentive is there for people to run relays?
+
+  - The question is misleading. It assumes that relays are free dumb pipes that exist such that people can move data around through them. In this case yes
