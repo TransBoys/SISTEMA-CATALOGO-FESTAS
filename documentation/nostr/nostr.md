@@ -111,4 +111,6 @@ Everybody runs a client. It can be a native client, a web client, etc. To publis
 
   - The question is misleading. It assumes that relays are free dumb pipes that exist such that people can move data around through them. In this case yes, the incentives would not exist. This in fact could be said of DHT nodes in all other p2p network stacks: what incentive is there for people to run DHT nodes?
 
-- Nostr enables you to move between server relays or use multiple relays but if these relays are just on AWS or 
+- Nostr enables you to move between server relays or use multiple relays but if these relays are just on AWS or Azure what’s the difference?
+
+  - There are literally thousands of VPS providers scattered all around the globe today, there is not only AWS or Azure. AWS or Azure are exactly the providers used by single centralized service providers that need a lot of scale, 
