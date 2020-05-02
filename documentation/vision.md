@@ -11,4 +11,14 @@ Repos should have keys like normal nostr users. This makes it easy for a repo to
 ```JSON
 {
     "pubkey": "abcd123...",
-    "nrepo": "nrepo
+    "nrepo": "nrepo1ris1683fw6n2mvhl5h6dhqd8mqfv3wmxnz4qph83ua4dk4006ezsrt5c24"
+}
+```
+
+It should be possible to clone a repository like this:
+
+```bash
+$ git clone nrepo1ris1683fw6n2mvhl5h6dhqd8mqfv3wmxnz4qph83ua4dk4006ezsrt5c24
+```
+
+And link repos like nos
