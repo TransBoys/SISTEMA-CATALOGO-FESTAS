@@ -30,4 +30,11 @@ What we have in mind for nrepo:
 - paste in an input box and it brings up the whole history of the repo
 - clone it with a CLI command and you get the latest code
 - run an info command to get a history of the repo
-- plug it into 
+- plug it into a continuous deployment tool and run the code
+- put it in a live environment (e.g. docker) and it runs, but can also get live updates
+- testing in local environments, live updates happen as you code
+- more stuff
+
+## Nostr
+
+Read about the vision of Nostr [here](https://github.com/NostrGit/
