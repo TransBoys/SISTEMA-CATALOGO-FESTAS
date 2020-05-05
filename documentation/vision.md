@@ -23,4 +23,11 @@ $ git clone nrepo1ris1683fw6n2mvhl5h6dhqd8mqfv3wmxnz4qph83ua4dk4006ezsrt5c24
 
 And link repos like nostrgit.com/nrepo1ris1683fw6n2mvhl5h6dhqd8mqfv3wmxnz4qph83ua4dk4006ezsrt5c24
 
-The npub and nrepo are just the same bech32 encoding of a public key. But nrepo gives you a strong hint that we are dealing with a repo. That in turn can help you choose which relays to query and whi
+The npub and nrepo are just the same bech32 encoding of a public key. But nrepo gives you a strong hint that we are dealing with a repo. That in turn can help you choose which relays to query and which filters to apply.
+
+What we have in mind for nrepo:
+
+- paste in an input box and it brings up the whole history of the repo
+- clone it with a CLI command and you get the latest code
+- run an info command to get a history of the repo
+- plug it into 
