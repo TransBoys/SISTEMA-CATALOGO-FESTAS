@@ -3,4 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "npm run delete:nostr-relaypool-ts && next build
+    "build": "npm run delete:nostr-relaypool-ts && next build",
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start",
+    "prettier": "prettier src/**/*.{ts,tsx} --write",
+    "eslint": "eslint --ext .ts,.tsx --fix .",
+    "delete:nostr-relaypool-ts": "rimraf ./node_modules/nostr-relaypool/*.ts"
+  },
+  "dep
