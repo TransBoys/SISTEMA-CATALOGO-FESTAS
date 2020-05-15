@@ -2,4 +2,8 @@
 <circle r="4.1939" transform="matrix(-1 0 0 1 10.7646 15.7964)" fill="current"/>
 <circle r="4.1939" transform="matrix(-1 0 0 1 10.7646 15.7964)" fill="black"/>
 <path d="M10.0654 15.167L17.894 22.9956" stroke="current" stroke-width="2.09695"/>
-<path d="M10.0654 15.167L17.894 22.9956" stroke="black" stroke-opacity="0.8" stro
+<path d="M10.0654 15.167L17.894 22.9956" stroke="black" stroke-opacity="0.8" stroke-width="2.09695"/>
+<circle cx="45.0147" cy="15.7964" r="4.1939" fill="current"/>
+<circle cx="45.0147" cy="15.7964" r="4.1939" fill="black"/>
+<path d="M45.7837 15.167L37.9551 22.9956" stroke="current" stroke-width="2.09695"/>
+<path d="M45.7837 15.167L37.9551 22.9956" 
