@@ -1,4 +1,7 @@
 export default function RepoDiscussionsPage() {
   return (
     <>
-      <h1>Discussion
+      <h1>Discussions</h1>
+    </>
+  );
+}
