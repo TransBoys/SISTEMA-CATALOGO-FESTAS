@@ -17,4 +17,16 @@ import {
   Search,
   Tag,
 } from "lucide-react";
-import
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+
+interface IIssueData {
+  id: string;
+  entity: string;
+  repo: string;
+  title: string;
+  number: string;
+  date: string;
+  author: string;
+  tags: string[];
+  taskTotal
