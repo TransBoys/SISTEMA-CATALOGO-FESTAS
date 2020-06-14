@@ -29,4 +29,12 @@ interface IIssueData {
   date: string;
   author: string;
   tags: string[];
-  taskTotal
+  taskTotal: number | null;
+  taskCompleted: number | null;
+  linkedPR: number;
+  assignees: string[];
+  comments: number;
+}
+
+export default function RepoIssuesPage() {
+  const [issueStatus, setIssueStatus] = useState<"open" | "closed">("open")
