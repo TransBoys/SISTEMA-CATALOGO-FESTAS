@@ -37,4 +37,15 @@ interface IIssueData {
 }
 
 export default function RepoIssuesPage() {
-  const [issueStatus, setIssueStatus] = useState<"open" | "closed">("open")
+  const [issueStatus, setIssueStatus] = useState<"open" | "closed">("open");
+
+  const [search, setSearch] = useState<string>(`is:open is:issue`);
+
+  const [issues, setIssues] = useState<IIssueData[]>(openData);
+
+  const pathname = usePathname() || "";
+
+  useEffect(() => {
+    if (issueStatus === "open") {
+      setIssues(openData);
+    } else
