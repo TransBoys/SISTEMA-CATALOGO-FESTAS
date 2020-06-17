@@ -48,4 +48,15 @@ export default function RepoIssuesPage() {
   useEffect(() => {
     if (issueStatus === "open") {
       setIssues(openData);
-    } else
+    } else {
+      setIssues([]);
+    }
+  }, [issueStatus]);
+
+  const handleIssueStatusOpen = useCallback(() => setIssueStatus("open"), []);
+  const handleIssueStatusClosed = useCallback(
+    () => setIssueStatus("closed"),
+    []
+  );
+
+  const handleSearch = useCallba
