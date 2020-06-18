@@ -68,4 +68,11 @@ export default function RepoIssuesPage() {
   return (
     <section className="mt-4">
       <div className="flex flex-col md:flex-row justify-between gap-4">
-        <div className="flex w-full or
+        <div className="flex w-full order-last mb-4 md:mb-0 md:order-none">
+          <FilterBar search={search} handleSearch={handleSearch} />
+        </div>
+
+        <div className="flex gap-4 justify-between">
+          <div className="flex text-sm">
+            <button
+           
