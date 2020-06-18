@@ -59,4 +59,13 @@ export default function RepoIssuesPage() {
     []
   );
 
-  const handleSearch = useCallba
+  const handleSearch = useCallback(
+    (e: React.ChangeEvent<HTMLInputElement>) =>
+      setSearch(e.currentTarget.value),
+    []
+  );
+
+  return (
+    <section className="mt-4">
+      <div className="flex flex-col md:flex-row justify-between gap-4">
+        <div className="flex w-full or
