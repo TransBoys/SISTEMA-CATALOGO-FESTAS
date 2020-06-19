@@ -75,4 +75,10 @@ export default function RepoIssuesPage() {
         <div className="flex gap-4 justify-between">
           <div className="flex text-sm">
             <button
-           
+              type="button"
+              className="flex h-8 items-center border !border-lightgray hover:bg-dark rounded-l-md px-4 text-zinc-200 font-semibold"
+            >
+              <Tag className="h-4 w-4 mr-2" /> Labels
+            </button>
+            <button
+              t
