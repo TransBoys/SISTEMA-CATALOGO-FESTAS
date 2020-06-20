@@ -86,3 +86,12 @@ export default function RepoIssuesPage() {
             >
               <Tag className="h-4 w-4 mr-2" /> Milestones
             </button>
+          </div>
+
+          <Button
+            variant={"success"}
+            type="button"
+            className="whitespace-nowrap h-8"
+          >
+            <Link className="text-white w-full" href={`${pathname}/new`}>
+              New i
