@@ -81,4 +81,8 @@ export default function RepoIssuesPage() {
               <Tag className="h-4 w-4 mr-2" /> Labels
             </button>
             <button
-              t
+              type="button"
+              className="flex h-8 items-center border-l-0 border !border-lightgray hover:bg-dark rounded-r-md px-4 text-zinc-200 font-semibold"
+            >
+              <Tag className="h-4 w-4 mr-2" /> Milestones
+            </button>
