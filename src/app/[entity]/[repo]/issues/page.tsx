@@ -94,4 +94,12 @@ export default function RepoIssuesPage() {
             className="whitespace-nowrap h-8"
           >
             <Link className="text-white w-full" href={`${pathname}/new`}>
-              New i
+              New issue
+            </Link>
+          </Button>
+        </div>
+      </div>
+
+      <main>
+        <div className="mt-4">
+          <div className="flex flex-col w-full rounded-md rounded-bl-none rounded-br-none border bg-dark py-2 px-4 !border-lightgray d
