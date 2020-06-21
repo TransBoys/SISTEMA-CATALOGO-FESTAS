@@ -102,4 +102,6 @@ export default function RepoIssuesPage() {
 
       <main>
         <div className="mt-4">
-          <div className="flex flex-col w-full rounded-md rounded-bl-none rounded-br-none border bg-dark py-2 px-4 !border-lightgray d
+          <div className="flex flex-col w-full rounded-md rounded-bl-none rounded-br-none border bg-dark py-2 px-4 !border-lightgray dark:text-zinc-100">
+            <div className="order-last md:flex w-full flex-col text-md py-2 items-start justify-between lg:flex-row lg:items-center">
+              <div className="flex items-center lg:flex-row space-x-4 font-medium"
