@@ -111,4 +111,9 @@ export default function RepoIssuesPage() {
                   })}
                   onClick={handleIssueStatusOpen}
                 >
-   
+                  <CircleDot className="h-5 w-5 mr-2 mt-0.5" /> 3 Open
+                </button>
+                <button
+                  className={clsx("flex text-zinc-400 hover:text-zinc-200", {
+                    "text-zinc-50": issueStatus === `closed`,
+ 
