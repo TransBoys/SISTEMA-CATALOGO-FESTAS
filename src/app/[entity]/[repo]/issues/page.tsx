@@ -104,4 +104,11 @@ export default function RepoIssuesPage() {
         <div className="mt-4">
           <div className="flex flex-col w-full rounded-md rounded-bl-none rounded-br-none border bg-dark py-2 px-4 !border-lightgray dark:text-zinc-100">
             <div className="order-last md:flex w-full flex-col text-md py-2 items-start justify-between lg:flex-row lg:items-center">
-              <div className="flex items-center lg:flex-row space-x-4 font-medium"
+              <div className="flex items-center lg:flex-row space-x-4 font-medium">
+                <button
+                  className={clsx("flex text-zinc-400 hover:text-zinc-200", {
+                    "text-zinc-50": issueStatus === `open`,
+                  })}
+                  onClick={handleIssueStatusOpen}
+                >
+   
