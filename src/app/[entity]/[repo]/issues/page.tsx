@@ -122,4 +122,8 @@ export default function RepoIssuesPage() {
                   <Check className="h-5 w-5 mr-2 mt-0.5" /> 4 Closed
                 </button>
               </div>
-              <div
+              <div className="mt-2 flex text-gray-400 lg:mt-0 space-x-6">
+                <span className="flex text-zinc-400 hover:text-zinc-200 cursor-pointer">
+                  Author <ChevronDown className="h-4 w-4 ml-1 mt-1.5" />
+                </span>
+     
