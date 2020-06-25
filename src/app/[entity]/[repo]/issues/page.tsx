@@ -116,4 +116,10 @@ export default function RepoIssuesPage() {
                 <button
                   className={clsx("flex text-zinc-400 hover:text-zinc-200", {
                     "text-zinc-50": issueStatus === `closed`,
- 
+                  })}
+                  onClick={handleIssueStatusClosed}
+                >
+                  <Check className="h-5 w-5 mr-2 mt-0.5" /> 4 Closed
+                </button>
+              </div>
+              <div
