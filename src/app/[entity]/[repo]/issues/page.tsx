@@ -126,4 +126,8 @@ export default function RepoIssuesPage() {
                 <span className="flex text-zinc-400 hover:text-zinc-200 cursor-pointer">
                   Author <ChevronDown className="h-4 w-4 ml-1 mt-1.5" />
                 </span>
-     
+                <span className="flex text-zinc-400 hover:text-zinc-200 cursor-pointer">
+                  Label <ChevronDown className="h-4 w-4 ml-1 mt-1.5" />
+                </span>
+                <span className="hidden md:flex text-zinc-400 hover:text-zinc-200 cursor-pointer">
+        
