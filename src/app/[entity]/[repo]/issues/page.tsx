@@ -133,4 +133,9 @@ export default function RepoIssuesPage() {
                   Projects <ChevronDown className="h-4 w-4 ml-1 mt-1.5" />
                 </span>
                 <span className="hidden md:flex text-zinc-400 hover:text-zinc-200 cursor-pointer">
-                  Milestones <ChevronDown className="h-4 w-4 ml-
+                  Milestones <ChevronDown className="h-4 w-4 ml-1 mt-1.5" />
+                </span>
+                <span className="flex text-zinc-400 hover:text-zinc-200 cursor-pointer">
+                  Assignee <ChevronDown className="h-4 w-4 ml-1 mt-1.5" />
+                </span>
+                <span className="flex text-zinc-400 hover:tex
