@@ -138,4 +138,10 @@ export default function RepoIssuesPage() {
                 <span className="flex text-zinc-400 hover:text-zinc-200 cursor-pointer">
                   Assignee <ChevronDown className="h-4 w-4 ml-1 mt-1.5" />
                 </span>
-                <span className="flex text-zinc-400 hover:tex
+                <span className="flex text-zinc-400 hover:text-zinc-200 cursor-pointer">
+                  Sort <ChevronDown className="h-4 w-4 ml-1 mt-1.5" />
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className="overflow-hidden rounded-md rounded-tr-none rounded-
