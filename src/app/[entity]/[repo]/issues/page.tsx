@@ -144,4 +144,9 @@ export default function RepoIssuesPage() {
               </div>
             </div>
           </div>
-          <div className="overflow-hidden rounded-md rounded-tr-none rounded-
+          <div className="overflow-hidden rounded-md rounded-tr-none rounded-tl-none border border-t-0 dark:border-lightgray">
+            <ul className="divide-y dark:divide-lightgray">
+              {issues.map((item) => (
+                <li
+                  key={`${item.id} ${item.entity}`}
+                  className
