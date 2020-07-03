@@ -149,4 +149,8 @@ export default function RepoIssuesPage() {
               {issues.map((item) => (
                 <li
                   key={`${item.id} ${item.entity}`}
-                  className
+                  className="text-gray-400 grid grid-cols-8 p-2 text-sm hover:bg-dark"
+                >
+                  <div className="col-span-8 sm:col-span-6">
+                    <div className="sm:flex items-center text-lg font-medium">
+  
