@@ -153,4 +153,8 @@ export default function RepoIssuesPage() {
                 >
                   <div className="col-span-8 sm:col-span-6">
                     <div className="sm:flex items-center text-lg font-medium">
-  
+                      <span className="flex">
+                        {issueStatus === "open" ? (
+                          <CircleDot className="h-5 w-5 mr-2 mt-1 text-green-600" />
+                        ) : (
+                          <CheckCircle2 className="h-5 w-5 mr-2 mt-1
