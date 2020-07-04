@@ -163,4 +163,12 @@ export default function RepoIssuesPage() {
                           className="text-zinc-400 hover:text-purple-500"
                           href="#"
                         >
-                          {item.entity}/{item.
+                          {item.entity}/{item.repo}
+                        </a>
+                      </span>
+
+                      <a
+                        className="text-zinc-200 hover:text-purple-500 pl-7 sm:pl-3"
+                        href="#"
+                      >
+                        {item.ti
