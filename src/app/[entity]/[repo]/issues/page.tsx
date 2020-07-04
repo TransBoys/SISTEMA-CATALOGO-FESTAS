@@ -157,4 +157,10 @@ export default function RepoIssuesPage() {
                         {issueStatus === "open" ? (
                           <CircleDot className="h-5 w-5 mr-2 mt-1 text-green-600" />
                         ) : (
-                          <CheckCircle2 className="h-5 w-5 mr-2 mt-1
+                          <CheckCircle2 className="h-5 w-5 mr-2 mt-1 text-purple-600" />
+                        )}
+                        <a
+                          className="text-zinc-400 hover:text-purple-500"
+                          href="#"
+                        >
+                          {item.entity}/{item.
