@@ -177,4 +177,10 @@ export default function RepoIssuesPage() {
                     <div className="ml-7 text-zinc-400">
                       #{item.number} opened {item.date} by{" "}
                       <a className="hover:text-purple-500" href="#">
-                    
+                        {item.author}
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className="hidden sm:flex col-span-2 text-zinc-400 justify-between pt-2 text-right pr-3 no-wrap">
+                    <span className=
