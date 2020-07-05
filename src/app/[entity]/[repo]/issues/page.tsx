@@ -171,4 +171,10 @@ export default function RepoIssuesPage() {
                         className="text-zinc-200 hover:text-purple-500 pl-7 sm:pl-3"
                         href="#"
                       >
-                        {item.ti
+                        {item.title}
+                      </a>
+                    </div>
+                    <div className="ml-7 text-zinc-400">
+                      #{item.number} opened {item.date} by{" "}
+                      <a className="hover:text-purple-500" href="#">
+                    
