@@ -183,4 +183,9 @@ export default function RepoIssuesPage() {
                   </div>
 
                   <div className="hidden sm:flex col-span-2 text-zinc-400 justify-between pt-2 text-right pr-3 no-wrap">
-                    <span className=
+                    <span className="ml-2 flex hover:text-purple-500 cursor-pointer font-medium">
+                      {item.linkedPR ? (
+                        <>
+                          <GitPullRequest className="h-5 w-5 mr-2" />
+                          {item.linkedPR}
+              
