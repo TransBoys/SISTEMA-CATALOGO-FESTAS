@@ -188,4 +188,10 @@ export default function RepoIssuesPage() {
                         <>
                           <GitPullRequest className="h-5 w-5 mr-2" />
                           {item.linkedPR}
-              
+                        </>
+                      ) : null}
+                    </span>
+                    <span className="ml-2 "></span>
+                    <span className="ml-2 flex hover:text-purple-500 cursor-pointer font-medium">
+                      {item.comments ? (
+                 
