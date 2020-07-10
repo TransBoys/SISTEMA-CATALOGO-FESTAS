@@ -194,4 +194,13 @@ export default function RepoIssuesPage() {
                     <span className="ml-2 "></span>
                     <span className="ml-2 flex hover:text-purple-500 cursor-pointer font-medium">
                       {item.comments ? (
-                 
+                        <>
+                          <MessageSquare className="h-5 w-5 mr-2" />
+                          {item.comments}
+                        </>
+                      ) : null}
+                    </span>
+                  </div>
+                </li>
+              ))}
+  
