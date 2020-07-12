@@ -203,4 +203,20 @@ export default function RepoIssuesPage() {
                   </div>
                 </li>
               ))}
-  
+            </ul>
+          </div>
+        </div>
+      </main>
+    </section>
+  );
+}
+
+const openData = [
+  {
+    id: "101",
+    entity: "NostrGit",
+    repo: "NostrGit",
+    title: "Make GHA required",
+    number: "59",
+    date: "2 hours ago",
+    author: "pierr
