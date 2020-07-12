@@ -1,0 +1,129 @@
+
+"use client";
+
+import Banner from "@/components/banner";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+
+import { clsx } from "clsx";
+import {
+  BarChart4,
+  Book,
+  ChevronDown,
+  CircleDot,
+  Code,
+  Eye,
+  GitFork,
+  GitPullRequest,
+  Globe2,
+  MessageCircle,
+  Settings,
+  Star,
+  Zap,
+} from "lucide-react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+
+export default function RepoLayout({
+  children,
+  params,
+}: {
+  children: React.ReactNode;
+  params: { entity: string; repo: string; subpage?: string };
+}) {
+  const pathname = usePathname() || "";
+
+  return (
+    <>
+      <section className="max-w-7xl mx-auto px-4 md:px-6 py-6">
+        <div className="justify-between overflow-hidden flex flex-col lg:flex-row">
+          <div className="mb-4 flex items-center text-lg">
+            <Book className="mr-2 inline h-4 w-4 text-gray-400" />
+            <Link
+              className="text-purple-500 hover:underline"
+              href={`/${params.entity}`}
+            >
+              {params.entity}
+            </Link>
+            <span className="text-gray-400 px-2">/</span>
+            <Link
+              className="text-purple-500 hover:underline"
+              href={`/${params.entity}/${params.repo}`}
+            >
+              {params.repo}
+            </Link>
+            <span className="border-lightgray text-gray-400 ml-1.5 mt-px rounded-full border px-1.5 text-xs">
+              Public
+            </span>
+          </div>
+
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <Button
+                className="h-8 !border-[#383B42] bg-[#22262C] text-xs md:hidden"
+                variant="outline"
+              >
+                Actions <ChevronDown className="ml-2 h-4 w-4 text-white" />
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent className="ml-8 mt-2">
+              <DropdownMenuItem>
+                <Eye className="mr-2 h-4 w-4" /> Unwatch
+                <Badge className="ml-2">148</Badge>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Zap className="mr-2 h-4 w-4" /> Zaps
+                <Badge className="ml-2">1337</Badge>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Globe2 className="mr-2 h-4 w-4" /> Relays
+                <Badge className="ml-2">8</Badge>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <GitFork className="mr-2 h-4 w-4" /> Fork
+                <Badge className="ml-2">209</Badge>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <GitFork className="mr-2 h-4 w-4" /> Fork
+                <Badge className="ml-2">209</Badge>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Star className="mr-2 h-4 w-4 text-yellow-500" /> Starred
+                <Badge className="ml-2">7k</Badge>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+
+          <div className="flex justify-end">
+            <div className="hidden md:flex md:flex-row md:gap-2">
+              <Button
+                className="h-8 !border-[#383B42] bg-[#22262C] text-xs"
+                variant="outline"
+              >
+                <Eye className="mr-2 h-4 w-4" /> Unwatch
+                <Badge className="ml-2">148</Badge>
+              </Button>
+              <Button
+                className="h-8 !border-[#383B42] bg-[#22262C] text-xs"
+                variant="outline"
+              >
+                <Zap className="mr-2 h-4 w-4" /> Zaps
+                <Badge className="ml-2">1337</Badge>
+              </Button>
+              <Button
+                className="h-8 !border-[#383B42] bg-[#22262C] text-xs"
+                variant="outline"
+              >
+                <Globe2 className="mr-2 h-4 w-4" /> Relays
+                <Badge className="ml-2">8</Badge>
+              </Button>
+              <Button
+                className="h-8 !border-[#383B42] bg-[#22262C] text-xs"
+                variant="outline"
+              >

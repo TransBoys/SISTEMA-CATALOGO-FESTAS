@@ -219,4 +219,12 @@ const openData = [
     title: "Make GHA required",
     number: "59",
     date: "2 hours ago",
-    author: "pierr
+    author: "pierresisson",
+    tags: [],
+    taskTotal: null,
+    taskCompleted: null,
+    linkedPR: 0,
+    assignees: [],
+    comments: 0,
+  },
+];
