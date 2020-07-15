@@ -162,3 +162,35 @@ export default function RepoCodePage({
         </div>
         <p className="pb-2">
           a truly censorship-resistant alternative to Twitter that has a chance
+          of working
+        </p>
+        <Badge className="mr-2">nostr</Badge>
+        <Badge className="mr-2">git</Badge>
+        <ul className="text-gray-400 space-y-2 border-b border-lightgray pt-4 pb-8 text-sm">
+          <li>
+            <BookOpen className="mr-2 inline h-4 w-4" />
+            Readme
+          </li>
+          <li>
+            <Star className="mr-2 inline h-4 w-4" />
+            <strong>7k</strong> stars
+          </li>
+          <li>
+            <Eye className="mr-2 inline h-4 w-4" />
+            <strong>148</strong> watching
+          </li>
+          <li>
+            <GitFork className="mr-2 inline h-4 w-4" />
+            <strong>209</strong> forks
+          </li>
+        </ul>
+        <div className="">
+          <h3 className="mb-4 font-bold">
+            Contributors <Badge className="ml-2">19</Badge>
+          </h3>
+          <Contributors />
+        </div>
+      </aside>
+    </div>
+  );
+}
