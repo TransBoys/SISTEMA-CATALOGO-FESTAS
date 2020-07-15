@@ -127,3 +127,127 @@ export default function RepoLayout({
                 className="h-8 !border-[#383B42] bg-[#22262C] text-xs"
                 variant="outline"
               >
+                <GitFork className="mr-2 h-4 w-4" /> Fork
+                <Badge className="ml-2">209</Badge>
+              </Button>
+              <Button
+                className="h-8 !border-[#383B42] bg-[#22262C] text-xs"
+                variant="outline"
+              >
+                <Star className="mr-2 h-4 w-4 text-yellow-500" /> Starred
+                <Badge className="ml-2">7k</Badge>
+              </Button>
+            </div>
+          </div>
+        </div>
+
+        <ul className="my-4 flex w-full items-center gap-x-4 overflow-x-scroll scrollbar scrollbar-thumb-gray-900 scrollbar-track-gray-100">
+          <li>
+            <Link
+              href={`/${params.entity}/${params.repo}`}
+              className={clsx(
+                "mr-2 flex h-4 items-center whitespace-nowrap border-b-2 border-transparent transition-all ease-in-out p-4 text-sm",
+                {
+                  "border-b-purple-600":
+                    pathname === `/${params.entity}/${params.repo}`,
+                }
+              )}
+            >
+              <Code className="mr-2 h-4 w-4" />
+              Code
+            </Link>
+          </li>
+          <li>
+            <Link
+              href={`/${params.entity}/${params.repo}/issues`}
+              className={clsx(
+                "mr-2 flex h-4 items-center whitespace-nowrap border-b-2 border-transparent transition-all ease-in-out p-4 text-sm",
+                {
+                  "border-b-purple-600": pathname.includes(
+                    `/${params.entity}/${params.repo}/issues`
+                  ),
+                }
+              )}
+            >
+              <CircleDot className="mr-2 h-4 w-4" />
+              Issues <Badge className="ml-2">36</Badge>
+            </Link>
+          </li>
+          <li>
+            <Link
+              href={`/${params.entity}/${params.repo}/pulls`}
+              className={clsx(
+                "mr-2 flex h-4 items-center whitespace-nowrap border-b-2 border-transparent transition-all ease-in-out p-4 text-sm",
+                {
+                  "border-b-purple-600": pathname.includes(
+                    `/${params.entity}/${params.repo}/pulls`
+                  ),
+                }
+              )}
+            >
+              <GitPullRequest className="mr-2 h-4 w-4" />
+              Pull Requests <Badge className="ml-2">3</Badge>
+            </Link>
+          </li>
+          <li>
+            <Link
+              href={`/${params.entity}/${params.repo}/discussions`}
+              className={clsx(
+                "mr-2 flex h-4 items-center whitespace-nowrap border-b-2 border-transparent transition-all ease-in-out p-4 text-sm",
+                {
+                  "border-b-purple-600": pathname.includes(
+                    `/${params.entity}/${params.repo}/discussions`
+                  ),
+                }
+              )}
+            >
+              <MessageCircle className="mr-2 h-4 w-4" />
+              Discussions
+            </Link>
+          </li>
+          <li>
+            <Link
+              href={`/${params.entity}/${params.repo}/insights`}
+              className={clsx(
+                "mr-2 flex h-4 items-center whitespace-nowrap border-b-2 border-transparent transition-all ease-in-out p-4 text-sm",
+                {
+                  "border-b-purple-600": pathname.includes(
+                    `/${params.entity}/${params.repo}/insights`
+                  ),
+                }
+              )}
+            >
+              <BarChart4 className="mr-2 h-4 w-4" />
+              Insights
+            </Link>
+          </li>
+          <li>
+            <Link
+              href={`/${params.entity}/${params.repo}/settings`}
+              className={clsx(
+                "mr-2 flex h-4 items-center whitespace-nowrap border-b-2 border-transparent transition-all ease-in-out p-4 text-sm",
+                {
+                  "border-b-purple-600": pathname.includes(
+                    `/${params.entity}/${params.repo}/settings`
+                  ),
+                }
+              )}
+            >
+              <Settings className="mr-2 h-4 w-4" />
+              Settings
+            </Link>
+          </li>
+        </ul>
+
+        <hr className="w-full -mt-[17px] border-b-0 border-lightgray" />
+
+        {children}
+      </section>
+      <Banner
+        title="Contribute"
+        description="Join our GitHub project (until NostrGit is ready)"
+        link="https://github.com/NostrGit/NostrGit/issues/145"
+      />
+    </>
+  );
+}
