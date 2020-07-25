@@ -124,3 +124,72 @@ export default function Login() {
               <div className="mt-6">
                 <div className="relative">
                   <div className="absolute inset-0 flex items-center">
+                    <div className="w-full border-t border-lightgray" />
+                  </div>
+                  <div className="relative flex justify-center text-sm">
+                    <span className="bg-[#171B21] px-2 text-gray-500">OR</span>
+                  </div>
+                </div>
+                <div className="mt-6">
+                  <Button
+                    variant="outline"
+                    className="flex justify-center gap-2 items-center w-full"
+                    onClick={handleLogin}
+                  >
+                    <Puzzle />
+                    <p className="text-center">Continue with extension</p>
+                  </Button>
+                </div>
+              </div>
+            ) : (
+              <div className="mt-6">
+                <div className="relative">
+                  <div className="relative flex justify-center text-sm">
+                    <span className="px-2">Or</span>
+                  </div>
+                </div>
+                <div className="mt-6">
+                  <div className="relative">
+                    <div className="relative flex justify-center text-center text-sm">
+                      <span className="px-2">
+                        <span className="mr-1">
+                          For better security, download a NIP-07 extension like
+                        </span>
+                        <a
+                          className="underline"
+                          href="https://www.getflamingo.org"
+                        >
+                          Flamingo
+                        </a>
+                        <span className="ml-1 mr-1">or</span>
+                        <a
+                          className="underline"
+                          href="https://addons.mozilla.org/en-US/firefox/addon/nos2x-fox/"
+                        >
+                          nos2x-fox
+                        </a>
+                        .
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
+          </div>
+          <div className="flex justify-center center mt-1">
+            <p>
+              Don&apos;t have a
+              <a href="https://nostr.how/">
+                <b className="font-medium text-purple-500 ml-1 mr-1">Nostr</b>
+              </a>
+              profile?
+            </p>
+            <a href="/signup" className="font-medium text-purple-500 ml-1">
+              Create one here.
+            </a>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
