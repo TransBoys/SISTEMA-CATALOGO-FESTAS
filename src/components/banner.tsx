@@ -21,4 +21,13 @@ export default function Banner({
                 className="mx-2 inline h-0.5 w-0.5 fill-current"
                 aria-hidden="true"
               >
-                <circle cx={1
+                <circle cx={1} cy={1} r={1} />
+              </svg>
+              {description} <span aria-hidden="true">&rarr;</span>
+            </Link>
+          </p>
+        </div>
+      </div>
+    </>
+  );
+}
