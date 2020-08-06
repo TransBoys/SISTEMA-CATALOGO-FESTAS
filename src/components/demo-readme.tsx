@@ -359,3 +359,58 @@ export default function DemoReadme() {
           </p>
           <p>
             No, but you can get some estimates if relays cooperate in an
+            extra-protocol way.
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>What incentive is there for people to run relays?</strong>
+          </p>
+          <p>
+            The question is misleading. It assumes that relays are free dumb
+            pipes that exist such that people can move data around through them.
+            In this case yes, the incentives would not exist. This in fact could
+            be said of DHT nodes in all other p2p network stacks: what incentive
+            is there for people to run DHT nodes?
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>
+              Nostr enables you to move between server relays or use multiple
+              relays but if these relays are just on AWS or Azure what’s the
+              difference?
+            </strong>
+          </p>
+          <p>
+            There are literally thousands of VPS providers scattered all around
+            the globe today, there is not only AWS or Azure. AWS or Azure are
+            exactly the providers used by single centralized service providers
+            that need a lot of scale, and even then not just these two. For
+            smaller relay servers any VPS will do the job very well.
+          </p>
+        </li>
+      </ul>
+      <h2 id="protocol-specification">Protocol specification</h2>
+      <p>
+        See the <a href="https://github.com/nostr-protocol/nips">NIPs</a> and
+        especially{" "}
+        <a href="https://github.com/nostr-protocol/nips/blob/master/01.md">
+          NIP-01
+        </a>{" "}
+        for a reasonably-detailed explanation of the protocol spec (hint: it is
+        very short and simple).
+      </p>
+      <h2 id="software">Software</h2>
+      <p>
+        There is a list of most software being built using Nostr on{" "}
+        <a href="https://github.com/aljazceru/awesome-nostr">
+          https://github.com/aljazceru/awesome-nostr
+        </a>{" "}
+        that seemed to be almost complete last time I looked.
+      </p>
+      <h2 id="license">License</h2>
+      <p>Public domain.</p>
+    </>
+  );
+}
