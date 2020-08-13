@@ -21,4 +21,14 @@ export type NavItem = {
 
 export type MainNavItem = NavItem;
 
-export type HeaderConfig 
+export type HeaderConfig = {
+  mainNav: MainNavItem[];
+};
+
+interface MainNavProps {
+  items?: MainNavItem[];
+  children?: React.ReactNode;
+}
+
+export function MainNav({ items, children }: MainNavProps) {
+  const [showMobileMenu, setShowMobileMenu] = React.useSt
