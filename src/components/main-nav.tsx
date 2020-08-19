@@ -31,4 +31,11 @@ interface MainNavProps {
 }
 
 export function MainNav({ items, children }: MainNavProps) {
-  const [showMobileMenu, setShowMobileMenu] = React.useSt
+  const [showMobileMenu, setShowMobileMenu] = React.useState<boolean>(false);
+
+  return (
+    <div className="w-full md:w-auto flex items-center justify-center gap-6 md:gap-10">
+      <Logo className="hidden md:flex" />
+
+      <div className="hidden max-h-12 md:inline">
+        <SearchBar className="w-[162px] lg:w-[272px] focus:w-[600p
