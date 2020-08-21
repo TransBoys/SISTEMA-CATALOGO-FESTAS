@@ -59,4 +59,9 @@ export function MainNav({ items, children }: MainNavProps) {
         </nav>
       ) : null}
 
- 
+      <div className="flex w-full md:w-auto justify-between items-center">
+        <button
+          className="flex items-center space-x-2 md:hidden"
+          onClick={() => setShowMobileMenu(!showMobileMenu)}
+        >
+          {showMobileMenu ?
