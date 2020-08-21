@@ -48,3 +48,15 @@ export function MainNav({ items, children }: MainNavProps) {
               key={index}
               href={item.disabled ? "#" : item.href}
               className={cn(
+                "flex items-center text-lg font-semibold text-white hover:text-white/80 sm:text-sm",
+
+                item.disabled && "cursor-not-allowed opacity-80"
+              )}
+            >
+              {item.title}
+            </Link>
+          ))}
+        </nav>
+      ) : null}
+
+ 
