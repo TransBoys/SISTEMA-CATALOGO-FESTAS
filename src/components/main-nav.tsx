@@ -38,4 +38,13 @@ export function MainNav({ items, children }: MainNavProps) {
       <Logo className="hidden md:flex" />
 
       <div className="hidden max-h-12 md:inline">
-        <SearchBar className="w-[162px] lg:w-[272px] focus:w-[600p
+        <SearchBar className="w-[162px] lg:w-[272px] focus:w-[600px]" />
+      </div>
+
+      {items?.length ? (
+        <nav className="hidden gap-6 md:flex">
+          {items?.map((item, index) => (
+            <Link
+              key={index}
+              href={item.disabled ? "#" : item.href}
+              className={cn(
