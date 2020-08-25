@@ -76,3 +76,4 @@ export function MainNav({ items, children }: MainNavProps) {
       </div>
     </div>
   );
+}
