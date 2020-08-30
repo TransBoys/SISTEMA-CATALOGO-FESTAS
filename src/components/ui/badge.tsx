@@ -5,4 +5,14 @@ export const Badge = ({
   className,
 }: {
   children: React.ReactNode;
-  className?
+  className?: string;
+}) => (
+  <span
+    className={cn(
+      "rounded-full bg-zinc-500/40 px-1.5 py-0.5 text-xs",
+      className
+    )}
+  >
+    {children}
+  </span>
+);
