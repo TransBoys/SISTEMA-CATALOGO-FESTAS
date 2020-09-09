@@ -7,4 +7,12 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuGroup,
-  Drop
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { useNostrContext } from "@/lib/nostr/NostrContext";
+import useSession from "@/lib/nostr/useSession";
+
+import { ChevronDown } from "lucide
