@@ -15,4 +15,19 @@ import {
 import { useNostrContext } from "@/lib/nostr/NostrContext";
 import useSession from "@/lib/nostr/useSession";
 
-import { ChevronDown } from "lucide
+import { ChevronDown } from "lucide-react";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
+
+import { MainNav } from "../main-nav";
+
+import { Button } from "./button";
+
+const HeaderConfig = {
+  mainNav: [
+    {
+      title: "Pull Requests",
+      href: "/pulls",
+    },
+    {
+  
