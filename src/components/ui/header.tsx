@@ -30,4 +30,21 @@ const HeaderConfig = {
       href: "/pulls",
     },
     {
-  
+      title: "Issues",
+      href: "/issues",
+    },
+    {
+      title: "Explore",
+      href: "/explore",
+    },
+  ],
+};
+
+const DropdownItems = [
+  {
+    title: "Your Profile",
+    href: "/profile",
+  },
+  {
+    title: "Your Repositories",
+    href: "/reposi
