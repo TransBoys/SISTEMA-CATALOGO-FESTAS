@@ -47,4 +47,23 @@ const DropdownItems = [
   },
   {
     title: "Your Repositories",
-    href: "/reposi
+    href: "/repositories",
+  },
+  {
+    title: "Your organizations",
+    href: "/organizations",
+  },
+  {
+    title: "Your projects",
+    href: "/projects",
+  },
+  {
+    title: "Your stars",
+    href: "/stars",
+  },
+  {
+    title: "Your zaps",
+    href: "/zaps",
+  },
+  {
+   
