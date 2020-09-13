@@ -66,4 +66,20 @@ const DropdownItems = [
     href: "/zaps",
   },
   {
-   
+    title: "Your relays",
+    href: "/relays",
+  },
+  {
+    title: "Your sponsors",
+    href: "/sponsors",
+  },
+  {
+    title: "Upgrade",
+    href: "/upgrade",
+  },
+  {
+    title: "Feature Preview",
+    href: "/feature-preview",
+  },
+  {
+ 
