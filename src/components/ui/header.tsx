@@ -82,4 +82,17 @@ const DropdownItems = [
     href: "/feature-preview",
   },
   {
- 
+    title: "Help",
+    href: "/help",
+  },
+  {
+    title: "Settings",
+    href: "settings",
+  },
+];
+
+const PrimaryGitInfo = DropdownItems.slice(0, 8);
+const restGitInfo = DropdownItems.slice(8);
+
+export function Header() {
+  const { picture, name, initials, isLoggedI
