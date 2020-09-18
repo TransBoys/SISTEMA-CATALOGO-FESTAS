@@ -112,4 +112,8 @@ export function Header() {
         {isLoggedIn ? (
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-       
+              <div className="flex items-center cursor-pointer">
+                <Avatar className="w-8 h-8">
+                  <AvatarImage src={picture} />
+                  <AvatarFallback>{initials}</AvatarFallback>
+                </Avatar>
