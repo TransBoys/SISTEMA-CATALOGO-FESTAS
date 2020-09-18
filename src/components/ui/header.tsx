@@ -95,4 +95,15 @@ const PrimaryGitInfo = DropdownItems.slice(0, 8);
 const restGitInfo = DropdownItems.slice(8);
 
 export function Header() {
-  const { picture, name, initials, isLoggedI
+  const { picture, name, initials, isLoggedIn } = useSession();
+  const { signOut } = useNostrContext();
+  const router = useRouter();
+  const handleSignOut = useCallback(() => {
+    if (signOut) {
+      signOut();
+      router.push("/");
+    }
+  }, [router, signOut]);
+
+  return (
+    <header className="
