@@ -106,4 +106,10 @@ export function Header() {
   }, [router, signOut]);
 
   return (
-    <header className="
+    <header className="flex h-14 w-full items-center justify-between bg-[#171B21] px-8">
+      <MainNav items={HeaderConfig.mainNav} />
+      <div className="hidden items-center md:inline">
+        {isLoggedIn ? (
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+       
