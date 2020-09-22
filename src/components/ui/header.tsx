@@ -122,4 +122,11 @@ export function Header() {
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-56">
               <Link href="/profile">
-                <DropdownMenuLabel className="cur
+                <DropdownMenuLabel className="cursor-pointer">
+                  {name}
+                </DropdownMenuLabel>
+              </Link>
+              <DropdownMenuSeparator />
+              <DropdownMenuGroup>
+                {PrimaryGitInfo?.map((item) => (
+                  <Link key={item.title} href={item
