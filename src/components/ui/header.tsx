@@ -129,4 +129,12 @@ export function Header() {
               <DropdownMenuSeparator />
               <DropdownMenuGroup>
                 {PrimaryGitInfo?.map((item) => (
-                  <Link key={item.title} href={item
+                  <Link key={item.title} href={item.href}>
+                    <DropdownMenuItem key={item.title}>
+                      {item.title}
+                    </DropdownMenuItem>
+                  </Link>
+                ))}
+                <DropdownMenuSeparator />
+
+                {restGitInfo?.map((i
