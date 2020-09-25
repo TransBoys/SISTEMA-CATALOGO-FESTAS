@@ -143,4 +143,13 @@ export function Header() {
                   </Link>
                 ))}
               </DropdownMenuGroup>
-              <Dropdo
+              <DropdownMenuSeparator />
+              <DropdownMenuItem>
+                <Button
+                  variant={"outline"}
+                  type="submit"
+                  onClick={handleSignOut}
+                >
+                  Sign Out
+                </Button>
+         
