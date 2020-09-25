@@ -137,4 +137,10 @@ export function Header() {
                 ))}
                 <DropdownMenuSeparator />
 
-                {restGitInfo?.map((i
+                {restGitInfo?.map((item) => (
+                  <Link key={item.title} href={item.href}>
+                    <DropdownMenuItem>{item.title}</DropdownMenuItem>
+                  </Link>
+                ))}
+              </DropdownMenuGroup>
+              <Dropdo
