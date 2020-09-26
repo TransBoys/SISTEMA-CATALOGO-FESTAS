@@ -160,4 +160,12 @@ export function Header() {
             <Button
               variant="ghost"
               type="submit"
-              c
+              className="mr-2 max-h-8 min-w-max"
+            >
+              <Link href="/login">Sign in</Link>
+            </Button>
+            <Button
+              variant="outline"
+              type="submit"
+              className="max-h-8 min-w-max"
+          
