@@ -168,4 +168,11 @@ export function Header() {
               variant="outline"
               type="submit"
               className="max-h-8 min-w-max"
-          
+            >
+              <a
+                href="https://nostr.how/get-started#create-your-account"
+                target="_blank"
+              >
+                Sign up
+              </a>
+              {/* link to nostr.how until we have a signup 
