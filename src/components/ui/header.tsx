@@ -175,4 +175,11 @@ export function Header() {
               >
                 Sign up
               </a>
-              {/* link to nostr.how until we have a signup 
+              {/* link to nostr.how until we have a signup page <Link href="/signup">Sign up</Link> */}
+            </Button>
+          </div>
+        )}
+      </div>
+    </header>
+  );
+}
