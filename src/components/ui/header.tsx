@@ -152,4 +152,12 @@ export function Header() {
                 >
                   Sign Out
                 </Button>
-         
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+        ) : (
+          <div className="flex gap-1 items-center">
+            <Button
+              variant="ghost"
+              type="submit"
+              c
