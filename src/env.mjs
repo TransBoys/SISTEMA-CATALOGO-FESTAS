@@ -38,4 +38,10 @@ const merged = server.merge(client);
 
 let env = /** @type {MergedOutput} */ (process.env);
 
-if (!!process.env.SKIP_ENV_VALIDATION == f
+if (!!process.env.SKIP_ENV_VALIDATION == false) {
+  const isServer = typeof window === "undefined";
+
+  const parsed = /** @type {MergedSafeParseReturn} */ (
+    isServer
+      ? merged.safeParse(processEnv) // on server we can validate all env vars
+      : client.safeParse(processEnv) // on clie
