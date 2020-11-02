@@ -17,4 +17,16 @@ export default function useLocalStorage<T>(key: string, initialValue: T) {
   const setValue = (value: T) => {
     if (value === storedValue || value === undefined || value === null) return;
     try {
-      setStoredV
+      setStoredValue(value);
+      if (typeof window !== "undefined") {
+        window.localStorage.setItem(key, JSON.stringify(value));
+      }
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  const removeValue = () => {
+    try {
+      setStoredValue(null);
+ 
