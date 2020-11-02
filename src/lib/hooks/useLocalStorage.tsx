@@ -29,4 +29,13 @@ export default function useLocalStorage<T>(key: string, initialValue: T) {
   const removeValue = () => {
     try {
       setStoredValue(null);
- 
+      if (typeof window !== "undefined") {
+        window.localStorage.removeItem(key);
+      }
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  return [storedValue, setValue, removeValue] as const;
+}
