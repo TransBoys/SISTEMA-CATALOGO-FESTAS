@@ -9,4 +9,13 @@ import {
 import { type Filter } from "nostr-tools";
 import { nip19 } from "nostr-tools";
 
-import useLocalStorage fro
+import useLocalStorage from "../hooks/useLocalStorage";
+
+import { WEB_STORAGE_KEYS } from "./localStorage";
+
+declare global {
+  interface Window { 
+    nostr: { 
+      getPublicKey() : Promise<string>,
+      signEvent(event: Event): Promise<Event>,
+      getRelays(): Promise<{ [ur
