@@ -30,4 +30,13 @@ declare global {
 
 const defaultRelays = [
   "wss://relay.damus.io",
-  "ws
+  "wss://nostr.fmt.wiz.biz",
+  "wss://nostr.bongbong.com",
+  "wss://nos.lol",
+];
+
+const relayPool = new RelayPool(defaultRelays);
+
+const NostrContext = createContext<{
+  subscribe?: typeof relayPool.subscribe;
+  addReplay?: (url: string
