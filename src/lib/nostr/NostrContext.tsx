@@ -65,4 +65,20 @@ const NostrProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
       relays: string[],
       onEvent: OnEvent,
       maxDelayms?: number,
-      onEose?: OnE
+      onEose?: OnEose,
+      options: SubscriptionOptions = {}
+    ) => {
+      const unsub = relayPool.subscribe(
+        filters,
+        relays,
+        onEvent,
+        maxDelayms,
+        onEose,
+        options
+      );
+      return unsub;
+    },
+    []
+  );
+
+  con
