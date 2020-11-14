@@ -55,4 +55,14 @@ export const useNostrContext = () => {
 };
 
 const NostrProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
-  const addReplay = useCallba
+  const addReplay = useCallback((url: string) => {
+    relayPool.addOrGetRelay(url);
+  }, []);
+
+  const replayPoolSubscribe = useCallback(
+    (
+      filters: (Filter & { relay?: string; noCache?: boolean })[],
+      relays: string[],
+      onEvent: OnEvent,
+      maxDelayms?: number,
+      onEose?: OnE
