@@ -39,4 +39,12 @@ const relayPool = new RelayPool(defaultRelays);
 
 const NostrContext = createContext<{
   subscribe?: typeof relayPool.subscribe;
-  addReplay?: (url: string
+  addReplay?: (url: string) => void;
+  defaultRelays: string[];
+  setAuthor?: (author: string) => void;
+  pubkey: string | null;
+  signOut?: () => void;
+}>({ defaultRelays, pubkey: null });
+
+export const useNostrContext = () => {
+  const context = useContext(NostrContex
