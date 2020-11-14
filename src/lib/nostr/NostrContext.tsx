@@ -47,4 +47,12 @@ const NostrContext = createContext<{
 }>({ defaultRelays, pubkey: null });
 
 export const useNostrContext = () => {
-  const context = useContext(NostrContex
+  const context = useContext(NostrContext);
+  if (context === null) {
+    throw new Error("useNostrContext must be used within NostrProvider");
+  }
+  return context;
+};
+
+const NostrProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
+  const addReplay = useCallba
