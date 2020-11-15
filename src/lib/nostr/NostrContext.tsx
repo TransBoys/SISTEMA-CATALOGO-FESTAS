@@ -81,4 +81,13 @@ const NostrProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
     []
   );
 
-  con
+  const [pubkey, setPubKey, removePubKey] = useLocalStorage<string | null>(
+    WEB_STORAGE_KEYS.NPUB,
+    null
+  );
+
+  const setAuthor = useCallback(
+    (author: string) => {
+      const { type, data } = (
+        nip19 as unknown as {
+          decode: (author: stri
