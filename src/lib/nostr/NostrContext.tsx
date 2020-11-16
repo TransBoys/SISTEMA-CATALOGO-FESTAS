@@ -117,4 +117,8 @@ const NostrProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
       }}
     >
       {children}
-    </Nost
+    </NostrContext.Provider>
+  );
+};
+
+export default NostrProvider;
