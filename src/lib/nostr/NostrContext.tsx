@@ -102,4 +102,19 @@ const NostrProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   );
 
   const signOut = useCallback(() => {
-    remov
+    removePubKey();
+  }, [removePubKey]);
+
+  return (
+    <NostrContext.Provider
+      value={{
+        subscribe: replayPoolSubscribe,
+        addReplay,
+        defaultRelays: defaultRelays,
+        setAuthor,
+        pubkey,
+        signOut,
+      }}
+    >
+      {children}
+    </Nost
