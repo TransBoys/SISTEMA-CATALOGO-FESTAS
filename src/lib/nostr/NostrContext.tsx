@@ -90,4 +90,16 @@ const NostrProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
     (author: string) => {
       const { type, data } = (
         nip19 as unknown as {
-          decode: (author: stri
+          decode: (author: string) => { type: string; data: string };
+        }
+      ).decode(author);
+      if (type !== "npub") {
+        throw new Error("Please use npub");
+      }
+      setPubKey(data);
+    },
+    [setPubKey]
+  );
+
+  const signOut = useCallback(() => {
+    remov
