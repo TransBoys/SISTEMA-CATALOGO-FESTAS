@@ -16,4 +16,15 @@ export type Metadata = {
 const useMetadata = (relays: string[] = []) => {
   const { subscribe, defaultRelays, pubkey } = useNostrContext();
 
-  const [metadata
+  const [metadata, setMetadata] = useState<Metadata>({});
+  useEffect(() => {
+    if (!subscribe || !pubkey) return;
+    const unsub = subscribe(
+      [
+        {
+          kinds: [0],
+          authors: [pubkey],
+        },
+      ],
+      [...defaultRelays, ...relays],
+      (event, isAfterEose, rel
