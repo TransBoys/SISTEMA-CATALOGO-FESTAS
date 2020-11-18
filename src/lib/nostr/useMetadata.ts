@@ -27,4 +27,11 @@ const useMetadata = (relays: string[] = []) => {
         },
       ],
       [...defaultRelays, ...relays],
-      (event, isAfterEose, rel
+      (event, isAfterEose, relayURL) => {
+        console.log(event, isAfterEose, relayURL);
+
+        if (!isAfterEose && event.kind === 0) {
+          const data = JSON.parse(event.content) as Metadata;
+          setMetadata(data);
+        }
+      },
