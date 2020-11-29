@@ -45,3 +45,8 @@ const useMetadata = (relays: string[] = []) => {
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pubkey]);
+
+  return metadata;
+};
+
+export default useMetadata;
