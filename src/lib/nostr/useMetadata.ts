@@ -35,3 +35,13 @@ const useMetadata = (relays: string[] = []) => {
           setMetadata(data);
         }
       },
+      undefined,
+      (events, relayURL) => {
+        console.log("EOSE", events, relayURL);
+      }
+    );
+    return () => {
+      unsub();
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pubkey]);
