@@ -13,4 +13,12 @@
   version "7.17.7"
   resolved "https://registry.npmjs.org/@babel/generator/-/generator-7.17.7.tgz"
   integrity sha512-oLcVCTeIFadUoArDTwpluncplrYBmTCCZZgXCbgNGvOBBiSDDK3eWO4b/+eOTli5tKv1lg+a5/NAXg+nTcei1w==
-  
+  dependencies:
+    "@babel/types" "^7.17.0"
+    jsesc "^2.5.1"
+    source-map "^0.5.0"
+
+"@babel/helper-environment-visitor@^7.16.7":
+  version "7.18.9"
+  resolved "https://registry.npmjs.org/@babel/helper-environment-visitor/-/helper-environment-visitor-7.18.9.tgz"
+  integ
