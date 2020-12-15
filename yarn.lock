@@ -21,4 +21,8 @@
 "@babel/helper-environment-visitor@^7.16.7":
   version "7.18.9"
   resolved "https://registry.npmjs.org/@babel/helper-environment-visitor/-/helper-environment-visitor-7.18.9.tgz"
-  integ
+  integrity sha512-3r/aACDJ3fhQ/EVgFy0hpj8oHyHpQc+LPtJoY9SzTThAsStm4Ptegq92vqKoE3vD706ZVFWITnMnxucw+S9Ipg==
+
+"@babel/helper-function-name@^7.16.7":
+  version "7.21.0"
+  resolved "https://registry.npmjs.org/@babel/helper-function-name/-/helper-func
