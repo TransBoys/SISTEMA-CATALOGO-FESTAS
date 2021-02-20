@@ -184,4 +184,11 @@
   dependencies:
     "@jridgewell/trace-mapping" "^0.3.15"
     callsites "^3.0.0"
-    graceful-fs "
+    graceful-fs "^4.2.9"
+
+"@jridgewell/resolve-uri@3.1.0":
+  version "3.1.0"
+  resolved "https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.0.tgz"
+  integrity sha512-F2msla3tad+Mfht5cJq7LSXcdudKTWCVYUgw6pLFOOHSTtZlj6SWNYAp+AhuqLmWdBO2X5hPrLcu8cVP8fy28w==
+
+"@jridgewell/sou
