@@ -179,4 +179,9 @@
 
 "@jest/source-map@^29.4.3":
   version "29.4.3"
-  resolved "https://registry.npmjs.org/@jest/source-m
+  resolved "https://registry.npmjs.org/@jest/source-map/-/source-map-29.4.3.tgz"
+  integrity sha512-qyt/mb6rLyd9j1jUts4EQncvS6Yy3PM9HghnNv86QBlV+zdL2inCdK1tuVlL+J+lpiw2BI67qXOrX3UurBqQ1w==
+  dependencies:
+    "@jridgewell/trace-mapping" "^0.3.15"
+    callsites "^3.0.0"
+    graceful-fs "
