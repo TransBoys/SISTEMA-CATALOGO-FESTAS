@@ -207,4 +207,9 @@
 "@next/env@13.2.3":
   version "13.2.3"
   resolved "https://registry.npmjs.org/@next/env/-/env-13.2.3.tgz"
-  integrity sha512-FN50r/E+b8wuqyRjmGaqvqNDuWBWYWQiigfZ
+  integrity sha512-FN50r/E+b8wuqyRjmGaqvqNDuWBWYWQiigfZ50KnSFH0f+AMQQyaZl+Zm2+CIpKk0fL9QxhLxOpTVA3xFHgFow==
+
+"@next/eslint-plugin-next@13.2.3":
+  version "13.2.3"
+  resolved "https://registry.npmjs.org/@next/eslint-plugin-next/-/eslint-plugin-next-13.2.3.tgz"
+  integrity sha512-QmMPItnU7VeojI1KnuwL9SLFW
