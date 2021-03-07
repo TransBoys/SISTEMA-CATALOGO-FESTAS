@@ -228,4 +228,9 @@
 
 "@next/swc-darwin-arm64@13.2.3":
   version "13.2.3"
-  resolved "https://registry.yarnpkg.com/@next/s
+  resolved "https://registry.yarnpkg.com/@next/swc-darwin-arm64/-/swc-darwin-arm64-13.2.3.tgz#f674e3c65aec505b6d218a662ade3fe248ccdbda"
+  integrity sha512-TXOubiFdLpMfMtaRu1K5d1I9ipKbW5iS2BNbu8zJhoqrhk3Kp7aRKTxqFfWrbliAHhWVE/3fQZUYZOWSXVQi1w==
+
+"@next/swc-darwin-x64@13.2.3":
+  version "13.2.3"
+  resolved "htt
