@@ -253,4 +253,9 @@
 
 "@next/swc-linux-arm64-musl@13.2.3":
   version "13.2.3"
-  resolved "https://registry.yarnpkg.com/@next/swc-lin
+  resolved "https://registry.yarnpkg.com/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-13.2.3.tgz#7d4cf00e8f1729a3de464da0624773f5d0d14888"
+  integrity sha512-sujxFDhMMDjqhruup8LLGV/y+nCPi6nm5DlFoThMJFvaaKr/imhkXuk8uCTq4YJDbtRxnjydFv2y8laBSJVC2g==
+
+"@next/swc-linux-x64-gnu@13.2.3":
+  version "13.2.3"
+  resolved "ht
