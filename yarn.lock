@@ -358,4 +358,9 @@
 "@radix-ui/react-collection@1.0.1":
   version "1.0.1"
   resolved "https://registry.npmjs.org/@radix-ui/react-collection/-/react-collection-1.0.1.tgz"
-  integrity sha512-uuiFbs+YCKjn3X
+  integrity sha512-uuiFbs+YCKjn3X1DTSx9G7BHApu4GHbi3kgiwsnFUbOKCrwejAJv4eE4Vc8C0Oaxt9T0aV4ox0WCOdx+39Xo+g==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/react-compose-refs" "1.0.0"
+    "@radix-ui/react-context" "1.0.0"
+    "@radix-ui/react-primitive" "1.0.1"
