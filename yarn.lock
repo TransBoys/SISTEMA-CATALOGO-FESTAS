@@ -399,4 +399,8 @@
     "@radix-ui/react-use-callback-ref" "1.0.0"
     "@radix-ui/react-use-escape-keydown" "1.0.2"
 
-"@radix-ui/react-dropdown-menu@^2.0.
+"@radix-ui/react-dropdown-menu@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.npmjs.org/@radix-ui/react-dropdown-menu/-/react-dropdown-menu-2.0.3.tgz"
+  integrity sha512-ToCPPztcJMu8WW33xCoG/nGcclVsCsV90IiEdkLhrWro3DzJOR2pPUoSi/aXX7c8imRO0DsZOrfL2bmn0U9qAQ==
+  dependencies
