@@ -448,4 +448,10 @@
 
 "@radix-ui/react-menu@2.0.3":
   version "2.0.3"
-  resolved "https://registry.npmjs.org/@radix
+  resolved "https://registry.npmjs.org/@radix-ui/react-menu/-/react-menu-2.0.3.tgz"
+  integrity sha512-JKgWMzNhWqnimRynMDtR26bKfpraGUj4e39+g9p45Fb1XTEDWepjvtBlkjhZcM068VHiwp7HALqkt7Y5qVRbyQ==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/primitive" "1.0.0"
+    "@radix-ui/react-collection" "1.0.1"
+    "@
