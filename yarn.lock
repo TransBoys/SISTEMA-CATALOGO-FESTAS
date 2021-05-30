@@ -460,4 +460,11 @@
     "@radix-ui/react-dismissable-layer" "1.0.2"
     "@radix-ui/react-focus-guards" "1.0.0"
     "@radix-ui/react-focus-scope" "1.0.1"
-    "@radix-ui/react-id"
+    "@radix-ui/react-id" "1.0.0"
+    "@radix-ui/react-popper" "1.1.0"
+    "@radix-ui/react-portal" "1.0.1"
+    "@radix-ui/react-presence" "1.0.0"
+    "@radix-ui/react-primitive" "1.0.1"
+    "@radix-ui/react-roving-focus" "1.0.2"
+    "@radix-ui/react-slot" "1.0.1"
+    "@radix-ui/react
