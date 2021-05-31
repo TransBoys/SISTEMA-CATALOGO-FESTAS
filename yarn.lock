@@ -479,4 +479,10 @@
     "@babel/runtime" "^7.13.10"
     "@floating-ui/react-dom" "0.7.2"
     "@radix-ui/react-arrow" "1.0.1"
-    "@radix-ui/react-compo
+    "@radix-ui/react-compose-refs" "1.0.0"
+    "@radix-ui/react-context" "1.0.0"
+    "@radix-ui/react-primitive" "1.0.1"
+    "@radix-ui/react-use-callback-ref" "1.0.0"
+    "@radix-ui/react-use-layout-effect" "1.0.0"
+    "@radix-ui/react-use-rect" "1.0.0"
+    "@radix-ui/react-use-size" 
