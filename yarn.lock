@@ -499,4 +499,10 @@
 "@radix-ui/react-presence@1.0.0":
   version "1.0.0"
   resolved "https://registry.npmjs.org/@radix-ui/react-presence/-/react-presence-1.0.0.tgz"
-  integrity sha512-A+6
+  integrity sha512-A+6XEvN01NfVWiKu38ybawfHsBjWum42MRPnEuqPsBZ4eV7e/7K321B5VgYMPv3Xx5An6o1/l9ZuDBgmcmWK3w==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/react-compose-refs" "1.0.0"
+    "@radix-ui/react-use-layout-effect" "1.0.0"
+
+"@radix-
