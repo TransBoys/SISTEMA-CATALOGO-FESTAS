@@ -609,4 +609,10 @@
 "@radix-ui/rect@1.0.0":
   version "1.0.0"
   resolved "https://registry.npmjs.org/@radix-ui/rect/-/rect-1.0.0.tgz"
-  integrity sha51
+  integrity sha512-d0O68AYy/9oeEy1DdC07bz1/ZXX+DqCskRd3i4JzLSTXwefzaepQrKjXC7aNM8lTHjFLDO0pDgaEiQ7jEk+HVg==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+
+"@rushstack/eslint-patch@^1.1.3":
+  version "1.2.0"
+  resolved "https://registry.npmjs.org/@rushstack/eslint-patch/-/eslint-patch-1.2
