@@ -751,4 +751,11 @@
     debug "^4.3.4"
     grapheme-splitter "^1.0.4"
     ignore "^5.2.0"
-    natur
+    natural-compare-lite "^1.4.0"
+    regexpp "^3.2.0"
+    semver "^7.3.7"
+    tsutils "^3.21.0"
+
+"@typescript-eslint/parser@^5.42.0", "@typescript-eslint/parser@^5.53.0":
+  version "5.54.0"
+  resolved "https://registry.npmjs.org/@typescript-eslint/parser/-/parser-5.54.0.
