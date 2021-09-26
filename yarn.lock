@@ -758,4 +758,9 @@
 
 "@typescript-eslint/parser@^5.42.0", "@typescript-eslint/parser@^5.53.0":
   version "5.54.0"
-  resolved "https://registry.npmjs.org/@typescript-eslint/parser/-/parser-5.54.0.
+  resolved "https://registry.npmjs.org/@typescript-eslint/parser/-/parser-5.54.0.tgz"
+  integrity sha512-aAVL3Mu2qTi+h/r04WI/5PfNWvO6pdhpeMRWk9R7rEV4mwJNzoWf5CCU5vDKBsPIFQFjEq1xg7XBI2rjiMXQbQ==
+  dependencies:
+    "@typescript-eslint/scope-manager" "5.54.0"
+    "@typescript-eslint/types" "5.54.0"
+    "@typescript-eslint/typescript-estree"
