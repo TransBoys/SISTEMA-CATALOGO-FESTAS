@@ -780,4 +780,11 @@
   integrity sha512-WI+WMJ8+oS+LyflqsD4nlXMsVdzTMYTxl16myXPaCXnSgc7LWwMsjxQFZCK/rVmTZ3FN71Ct78ehO9bRC7erYQ==
   dependencies:
     "@typescript-eslint/typescript-estree" "5.54.0"
-    "@typescript-eslint/utils" "5.
+    "@typescript-eslint/utils" "5.54.0"
+    debug "^4.3.4"
+    tsutils "^3.21.0"
+
+"@typescript-eslint/types@5.54.0":
+  version "5.54.0"
+  resolved "https://registry.npmjs.org/@typescript-eslint/types/-/types-5.54.0.tgz"
+  integrity sha512-nExy+fDCBEgqblasfeE3aQ3NuafBUxZxgxXcYfzYR
