@@ -799,4 +799,10 @@
     debug "^4.3.4"
     globby "^11.1.0"
     is-glob "^4.0.3"
-    semve
+    semver "^7.3.7"
+    tsutils "^3.21.0"
+
+"@typescript-eslint/utils@5.54.0":
+  version "5.54.0"
+  resolved "https://registry.npmjs.org/@typescript-eslint/utils/-/utils-5.54.0.tgz"
+  integrity sha512-cuwm8D/Z/7AuyAeJ+T0r4WZmlnlxQ8wt7C7fLpFlKMR+dY6QO79Cq1
