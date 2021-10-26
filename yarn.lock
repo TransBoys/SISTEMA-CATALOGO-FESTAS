@@ -811,4 +811,12 @@
     "@types/semver" "^7.3.12"
     "@typescript-eslint/scope-manager" "5.54.0"
     "@typescript-eslint/types" "5.54.0"
-    "@typescript-eslint/typescript-estree" "5.54.
+    "@typescript-eslint/typescript-estree" "5.54.0"
+    eslint-scope "^5.1.1"
+    eslint-utils "^3.0.0"
+    semver "^7.3.7"
+
+"@typescript-eslint/visitor-keys@5.54.0":
+  version "5.54.0"
+  resolved "https://registry.npmjs.org/@typescript-eslint/visitor-keys/-/visitor-keys-5.54.0.tgz"
+  integrity sha512-xu4wT7aRCakG
