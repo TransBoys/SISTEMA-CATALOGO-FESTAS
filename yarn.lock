@@ -840,4 +840,10 @@ acorn-node@^1.8.2:
 
 acorn-walk@^7.0.0:
   version "7.2.0"
-  resolved "https://registry.npmjs.org/acorn-walk/-/aco
+  resolved "https://registry.npmjs.org/acorn-walk/-/acorn-walk-7.2.0.tgz"
+  integrity sha512-OPdCF6GsMIP+Az+aWfAAOEt2/+iVDKE7oy6lJ098aoe59oAmK76qV6Gw60SbZ8jHuG2wH058GF4pLFbYamYrVA==
+
+acorn@^7.0.0:
+  version "7.4.1"
+  resolved "https://registry.npmjs.org/acorn/-/acorn-7.4.1.tgz"
+  integrity s
