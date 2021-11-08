@@ -910,4 +910,11 @@ aria-hidden@^1.1.1:
 aria-query@^5.1.3:
   version "5.1.3"
   resolved "https://registry.npmjs.org/aria-query/-/aria-query-5.1.3.tgz"
-  integrity sha512-R5iJ5lkuHybztUfuOAznmb
+  integrity sha512-R5iJ5lkuHybztUfuOAznmboyjWq8O6sqNqtK7CLOqdydi54VNbORp49mb14KbWgG1QD3JFO9hJdZ+y4KutfdOQ==
+  dependencies:
+    deep-equal "^2.0.5"
+
+array-includes@^3.1.5, array-includes@^3.1.6:
+  version "3.1.6"
+  resolved "https://registry.npmjs.org/array-includes/-/array-includes-3.1.6.tgz"
+  int
