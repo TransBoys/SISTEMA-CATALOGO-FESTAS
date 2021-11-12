@@ -969,4 +969,15 @@ ast-types-flow@^0.0.7:
 autoprefixer@^10.4.7:
   version "10.4.13"
   resolved "https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.4.13.tgz"
-  integrity sha512-49vKpMqcZYsJjwotvt4+h/BCjJVnhGwcLpDt5xkca
+  integrity sha512-49vKpMqcZYsJjwotvt4+h/BCjJVnhGwcLpDt5xkcaOG3eLrG/HUYLagrihYsQ+qrIBgIzX1Rw7a6L8I/ZA1Atg==
+  dependencies:
+    browserslist "^4.21.4"
+    caniuse-lite "^1.0.30001426"
+    fraction.js "^4.2.0"
+    normalize-range "^0.1.2"
+    picocolors "^1.0.0"
+    postcss-value-parser "^4.2.0"
+
+available-typed-arrays@^1.0.5:
+  version "1.0.5"
+  re
