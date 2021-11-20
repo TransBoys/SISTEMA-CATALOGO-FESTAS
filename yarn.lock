@@ -1048,4 +1048,9 @@ call-bind@^1.0.0, call-bind@^1.0.2:
 callsites@^3.0.0:
   version "3.1.0"
   resolved "https://registry.npmjs.org/callsites/-/callsites-3.1.0.tgz"
-  in
+  integrity sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==
+
+camelcase-css@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.npmjs.org/camelcase-css/-/camelcase-css-2.0.1.tgz"
+  integrity
