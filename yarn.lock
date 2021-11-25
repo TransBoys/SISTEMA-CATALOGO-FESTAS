@@ -1094,4 +1094,10 @@ chokidar@^3.5.3:
 
 class-variance-authority@^0.4.0:
   version "0.4.0"
-  resolved "https://registry.npmjs.org/class-variance-authority/-/clas
+  resolved "https://registry.npmjs.org/class-variance-authority/-/class-variance-authority-0.4.0.tgz"
+  integrity sha512-74enNN8O9ZNieycac/y8FxqgyzZhZbxmCitAtAeUrLPlxjSd5zA7LfpprmxEcOmQBnaGs5hYhiSGnJ0mqrtBLQ==
+
+client-only@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.npmjs.org/client-only/-/client-only-0.0.1.tgz"
+  integrity sha512-IV
