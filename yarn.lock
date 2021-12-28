@@ -1353,4 +1353,11 @@ es-set-tostringtag@^2.0.1:
 
 es-shim-unscopables@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.npmjs.org/es-shim-unscopables/-/es-shim-unsc
+  resolved "https://registry.npmjs.org/es-shim-unscopables/-/es-shim-unscopables-1.0.0.tgz"
+  integrity sha512-Jm6GPcCdC30eMLbZ2x8z2WuRwAws3zTBBKuusffYVUrNj/GVSUAZ+xKMaUpfNDR5IbyNA5LJbaecoUVbmUcB1w==
+  dependencies:
+    has "^1.0.3"
+
+es-to-primitive@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.npmjs.org/es-to-primitive/-/
