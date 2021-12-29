@@ -1369,4 +1369,9 @@ es-to-primitive@^1.2.1:
 
 escalade@^3.1.1:
   version "3.1.1"
-  resolved "ht
+  resolved "https://registry.npmjs.org/escalade/-/escalade-3.1.1.tgz"
+  integrity sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==
+
+escape-string-regexp@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.npmjs.org/escape-s
