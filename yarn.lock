@@ -1384,4 +1384,8 @@ escape-string-regexp@^4.0.0:
 
 eslint-config-next@^13.2.1:
   version "13.2.3"
-  resolved "https://registry.np
+  resolved "https://registry.npmjs.org/eslint-config-next/-/eslint-config-next-13.2.3.tgz"
+  integrity sha512-kPulHiQEHGei9hIaaNGygHRc0UzlWM+3euOmYbxNkd2Nbhci5rrCDeMBMPSV8xgUssphDGmwDHWbk4VZz3rlZQ==
+  dependencies:
+    "@next/eslint-plugin-next" "13.2.3"
+    "@rushstack/eslint-patch" "^1
