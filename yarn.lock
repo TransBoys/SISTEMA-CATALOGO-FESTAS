@@ -1408,4 +1408,8 @@ eslint-import-resolver-node@^0.3.6, eslint-import-resolver-node@^0.3.7:
 
 eslint-import-resolver-typescript@^3.5.2:
   version "3.5.3"
-  resolved "ht
+  resolved "https://registry.npmjs.org/eslint-import-resolver-typescript/-/eslint-import-resolver-typescript-3.5.3.tgz"
+  integrity sha512-njRcKYBc3isE42LaTcJNVANR3R99H9bAxBDMNDr2W7yq5gYPxbU3MkdhsQukxZ/Xg9C2vcyLlDsbKfRDg0QvCQ==
+  dependencies:
+    debug "^4.3.4"
+    enhanced-resolve
