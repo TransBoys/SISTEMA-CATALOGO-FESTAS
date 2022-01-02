@@ -1422,4 +1422,10 @@ eslint-import-resolver-typescript@^3.5.2:
 eslint-module-utils@^2.7.4:
   version "2.7.4"
   resolved "https://registry.npmjs.org/eslint-module-utils/-/eslint-module-utils-2.7.4.tgz"
-  integrity sh
+  integrity sha512-j4GT+rqzCoRKHwURX7pddtIPGySnX9Si/cgMI5ztrcqOPtk5dDEeZ34CQVPphnqkJytlc97Vuk05Um2mJ3gEQA==
+  dependencies:
+    debug "^3.2.7"
+
+eslint-plugin-import@^2.26.0:
+  version "2.27.5"
+  resolved "https://registry.npmjs.org/eslint-plugin-import/-/eslint-plugin-import-2.2
