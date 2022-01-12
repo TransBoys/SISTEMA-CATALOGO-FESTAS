@@ -1445,4 +1445,9 @@ eslint-plugin-import@^2.26.0:
     object.values "^1.1.6"
     resolve "^1.22.1"
     semver "^6.3.0"
-    tsconfig-paths "^
+    tsconfig-paths "^3.14.1"
+
+eslint-plugin-jsx-a11y@^6.5.1:
+  version "6.7.1"
+  resolved "https://registry.npmjs.org/eslint-plugin-jsx-a11y/-/eslint-plugin-jsx-a11y-6.7.1.tgz"
+  integrity sha512-63Bog4iIethyo8smBklORknVjB0T2dwB8Mr/hIC+fBS0uyHdYYpzM/Ed+YC8VxTjlXHEWFOdmgwc
