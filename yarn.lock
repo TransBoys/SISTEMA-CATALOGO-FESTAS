@@ -1488,4 +1488,13 @@ eslint-plugin-react@^7.31.7:
     minimatch "^3.1.2"
     object.entries "^1.1.6"
     object.fromentries "^2.0.6"
-    o
+    object.hasown "^1.1.2"
+    object.values "^1.1.6"
+    prop-types "^15.8.1"
+    resolve "^2.0.0-next.4"
+    semver "^6.3.0"
+    string.prototype.matchall "^4.0.8"
+
+eslint-scope@^5.1.1:
+  version "5.1.1"
+  resolved "https://registry.npmjs.org/eslint-scope/-/eslin
