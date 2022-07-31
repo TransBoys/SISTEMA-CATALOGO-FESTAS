@@ -2004,4 +2004,8 @@ is-boolean-object@^1.1.0:
 is-callable@^1.1.3, is-callable@^1.1.4, is-callable@^1.2.7:
   version "1.2.7"
   resolved "https://registry.npmjs.org/is-callable/-/is-callable-1.2.7.tgz"
-  integrity sha5
+  integrity sha512-1BC0BVFhS/p0qtw6enp8e+8OD0UrK0oFLztSjNzhcKA3WDuJxxAPXzPuPtKkjEY9UUoEWlX/8fgKeu2S8i9JTA==
+
+is-core-module@^2.10.0, is-core-module@^2.11.0, is-core-module@^2.9.0:
+  version "2.11.0"
+  resolved "https://registry.npmjs.org/is-core-module/-
