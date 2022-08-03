@@ -2015,4 +2015,11 @@ is-core-module@^2.10.0, is-core-module@^2.11.0, is-core-module@^2.9.0:
 
 is-date-object@^1.0.1, is-date-object@^1.0.5:
   version "1.0.5"
-  resolved "https://registry.n
+  resolved "https://registry.npmjs.org/is-date-object/-/is-date-object-1.0.5.tgz"
+  integrity sha512-9YQaSxsAiSwcvS33MBk3wTCVnWK+HhF8VZR2jRxehM16QcVOdHqPn4VPHmRK4lSr38n9JriurInLcP90xsYNfQ==
+  dependencies:
+    has-tostringtag "^1.0.0"
+
+is-docker@^2.0.0, is-docker@^2.1.1:
+  version "2.2.1"
+  resolved "h
