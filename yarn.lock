@@ -2049,4 +2049,11 @@ is-negative-zero@^2.0.2:
 
 is-number-object@^1.0.4:
   version "1.0.7"
-  resolved "https://registry.npmjs.org/is-number-object/-/is-nu
+  resolved "https://registry.npmjs.org/is-number-object/-/is-number-object-1.0.7.tgz"
+  integrity sha512-k1U0IRzLMo7ZlYIfzRu23Oh6MiIFasgpb9X76eqfFZAqwH44UI4KTBvBYIZ1dSL9ZzChTB9ShHfLkR4pdW5krQ==
+  dependencies:
+    has-tostringtag "^1.0.0"
+
+is-number@^7.0.0:
+  version "7.0.0"
+  resolved "https://r
