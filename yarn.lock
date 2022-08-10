@@ -2044,4 +2044,9 @@ is-map@^2.0.1, is-map@^2.0.2:
 
 is-negative-zero@^2.0.2:
   version "2.0.2"
-  resolved "https://registry.npmjs.org/is-negative-zero/-/is-nega
+  resolved "https://registry.npmjs.org/is-negative-zero/-/is-negative-zero-2.0.2.tgz"
+  integrity sha512-dqJvarLawXsFbNDeJW7zAz8ItJ9cd28YufuuFzh0G8pNHjJMnY08Dv7sYX2uF5UpQOwieAeOExEYAWWfu7ZZUA==
+
+is-number-object@^1.0.4:
+  version "1.0.7"
+  resolved "https://registry.npmjs.org/is-number-object/-/is-nu
