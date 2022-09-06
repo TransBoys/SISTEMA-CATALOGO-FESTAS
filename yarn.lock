@@ -2205,4 +2205,9 @@ json5@^1.0.2:
 
 language-subtag-registry@~0.3.2:
   version "0.3.22"
-  resolved "https://registry.npmjs.org/language
+  resolved "https://registry.npmjs.org/language-subtag-registry/-/language-subtag-registry-0.3.22.tgz"
+  integrity sha512-tN0MCzyWnoz/4nHS6uxdlFWoUZT7ABptwKPQ52Ea7URk6vll88bWBVhodtnlfEuCcKWNGoc+uGbw1cwa9IKh/w==
+
+language-tags@=1.0.5:
+  version "1.0.5"
+  resolved "https://registry.npmjs.org/language-tags/-/l
