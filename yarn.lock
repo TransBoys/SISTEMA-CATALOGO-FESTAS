@@ -2307,4 +2307,10 @@ minimatch@^3.0.4, minimatch@^3.0.5, minimatch@^3.1.2:
 minimatch@^7.4.1:
   version "7.4.2"
   resolved "https://registry.npmjs.org/minimatch/-/minimatch-7.4.2.tgz"
-  integrity sha
+  integrity sha512-xy4q7wou3vUoC9k1xGTXc+awNdGaGVHtFUaey8tiX4H1QRc04DZ/rmDFwNm2EBsuYEhAZ6SgMmYf3InGY6OauA==
+  dependencies:
+    brace-expansion "^2.0.1"
+
+minimist@^1.2.0, minimist@^1.2.6:
+  version "1.2.8"
+  resolved "https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz"
