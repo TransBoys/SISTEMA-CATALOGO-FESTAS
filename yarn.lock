@@ -2319,4 +2319,9 @@ minimist@^1.2.0, minimist@^1.2.6:
 minipass@^4.0.2, minipass@^4.2.4:
   version "4.2.4"
   resolved "https://registry.npmjs.org/minipass/-/minipass-4.2.4.tgz"
-  integrity 
+  integrity sha512-lwycX3cBMTvcejsHITUgYj6Gy6A7Nh4Q6h9NP4sTHY1ccJlC7yKzDmiShEHsJ16Jf1nKGDEaiHxiltsJEvk0nQ==
+
+ms@2.1.2, ms@^2.1.1:
+  version "2.1.2"
+  resolved "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz"
+  integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S
