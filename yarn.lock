@@ -2343,4 +2343,9 @@ natural-compare@^1.4.0:
 
 next@^13.2.1:
   version "13.2.3"
-  re
+  resolved "https://registry.npmjs.org/next/-/next-13.2.3.tgz"
+  integrity sha512-nKFJC6upCPN7DWRx4+0S/1PIOT7vNlCT157w9AzbXEgKy6zkiPKEt5YyRUsRZkmpEqBVrGgOqNfwecTociyg+w==
+  dependencies:
+    "@next/env" "13.2.3"
+    "@swc/helpers" "0.4.14"
+    caniuse-lite "^1
