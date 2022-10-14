@@ -2381,4 +2381,9 @@ node-fetch@^3.3.1:
     formdata-polyfill "^4.0.10"
 
 node-releases@^2.0.8:
-  version "2.0.
+  version "2.0.10"
+  resolved "https://registry.npmjs.org/node-releases/-/node-releases-2.0.10.tgz"
+  integrity sha512-5GFldHPXVG/YZmFzJvKK2zDSzPKhEp0+ZR5SVaoSag9fsL5YgHbUHDfnG5494ISANDcK4KwPXAx2xqVEydmd7w==
+
+normalize-path@^3.0.0, normalize-path@~3.0.0:
+  version "3.0.0
