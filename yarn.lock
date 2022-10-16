@@ -2397,4 +2397,9 @@ normalize-range@^0.1.2:
 
 nostr-relaypool@^0.5.5:
   version "0.5.7"
-  resolved "https://regist
+  resolved "https://registry.npmjs.org/nostr-relaypool/-/nostr-relaypool-0.5.7.tgz"
+  integrity sha512-VBe5/vazp5u38/ZAUIpJ78KeQUJWMJ4JQJJxHIUdKwngTd+Wtp0CpLjlPUtwmJXKUmzvSP/IZmpOZ4VZkaSI9g==
+  dependencies:
+    "@jest/source-map" "^29.4.3"
+    isomorphic-ws "^5.0.0"
+  
