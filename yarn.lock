@@ -2476,4 +2476,12 @@ object.fromentries@^2.0.6:
 object.hasown@^1.1.2:
   version "1.1.2"
   resolved "https://registry.npmjs.org/object.hasown/-/object.hasown-1.1.2.tgz"
-  integrity sha512-B5UIT3J1W+WuWIU55h0mjlwaqxiE5vYENJXI
+  integrity sha512-B5UIT3J1W+WuWIU55h0mjlwaqxiE5vYENJXIXZ4VFe05pNYrkKuK0U/6aFcb0pKywYJh7IhfoqUfKVmrJJHZHw==
+  dependencies:
+    define-properties "^1.1.4"
+    es-abstract "^1.20.4"
+
+object.values@^1.1.6:
+  version "1.1.6"
+  resolved "https://registry.npmjs.org/object.values/-/object.values-1.1.6.tgz"
+  integrity sha512-FVV
