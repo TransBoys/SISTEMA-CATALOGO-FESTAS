@@ -2561,4 +2561,12 @@ path-parse@^1.0.7:
 
 path-scurry@^1.6.1:
   version "1.6.1"
-  resolved "https://registry.npmjs.org/path-scurry/-/path-scur
+  resolved "https://registry.npmjs.org/path-scurry/-/path-scurry-1.6.1.tgz"
+  integrity sha512-OW+5s+7cw6253Q4E+8qQ/u1fVvcJQCJo/VFD8pje+dbJCF1n5ZRMV2AEHbGp+5Q7jxQIYJxkHopnj6nzdGeZLA==
+  dependencies:
+    lru-cache "^7.14.1"
+    minipass "^4.0.2"
+
+path-type@^4.0.0:
+  version "4.0.0"
+  resolved "https:/
