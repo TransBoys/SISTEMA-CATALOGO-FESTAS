@@ -2887,4 +2887,10 @@ side-channel@^1.0.4:
 
 slash@^3.0.0:
   version "3.0.0"
-  resolved "https://registry.npmjs.org/slash/-/slash-3.0.0
+  resolved "https://registry.npmjs.org/slash/-/slash-3.0.0.tgz"
+  integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
+
+slash@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npmjs.org/slash/-/slash-4.0.0.tgz"
+  integrity sha512-3dOsAHXXUkQTpOYcoAxLIorMTp4g
