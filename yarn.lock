@@ -2937,4 +2937,11 @@ string.prototype.trimend@^1.0.6:
 
 string.prototype.trimstart@^1.0.6:
   version "1.0.6"
-  resolved "https://registry.npmjs.org/string.prototype.trimstart/-/strin
+  resolved "https://registry.npmjs.org/string.prototype.trimstart/-/string.prototype.trimstart-1.0.6.tgz"
+  integrity sha512-omqjMDaY92pbn5HOX7f9IccLA+U1tA9GvtU4JrodiXFfYB7jPzzHpRzpglLAjtUV6bB557zwClJezTqnAiYnQA==
+  dependencies:
+    call-bind "^1.0.2"
+    define-properties "^1.1.4"
+    es-abstract "^1.20.4"
+
+strip-ansi@^6
