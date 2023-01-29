@@ -3052,4 +3052,12 @@ text-table@^0.2.0:
 tiny-glob@^0.2.9:
   version "0.2.9"
   resolved "https://registry.npmjs.org/tiny-glob/-/tiny-glob-0.2.9.tgz"
-  integrity sha512-g/55ssRPUjShh+xkfx9UPDXqhckHEsHr4Vd9zX55oSdGZc/MD0m3sferOkwWtp98bv+kcVf
+  integrity sha512-g/55ssRPUjShh+xkfx9UPDXqhckHEsHr4Vd9zX55oSdGZc/MD0m3sferOkwWtp98bv+kcVfEHtRJgBVJzelrzg==
+  dependencies:
+    globalyzer "0.1.0"
+    globrex "^0.1.2"
+
+to-fast-properties@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmjs.org/to-fast-properties/-/to-fast-properties-2.0.0.tgz"
+  integrity sha512-/OaKK0xYrs3DmxRYqL/yDc+
