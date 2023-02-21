@@ -3190,4 +3190,10 @@ which-boxed-primitive@^1.0.2:
 
 which-collection@^1.0.1:
   version "1.0.1"
-  resolved "https://regist
+  resolved "https://registry.npmjs.org/which-collection/-/which-collection-1.0.1.tgz"
+  integrity sha512-W8xeTUwaln8i3K/cY1nGXzdnVZlidBcagyNFtBdD5kxnb4TvGKR7FfSIS3mYpwWS1QUCutfKz8IY8RjftB0+1A==
+  dependencies:
+    is-map "^2.0.1"
+    is-set "^2.0.1"
+    is-weakmap "^2.0.1"
+    is-weakset "^2.0
